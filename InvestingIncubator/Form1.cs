@@ -25,8 +25,8 @@ namespace InvestingIncubator
         {
             context = new InvContext();
             InitializeComponent();
-            //SaveShareDataFromURL("TSLA");
-            //SaveIncomeFromURL("AAPL");
+            //SaveBalanceFromURL("UBER");
+            //SaveIncomeFromURL("UBER");
             //this.Resize += new EventHandler(Form1_Resize);
             X = this.Width;
             Y = this.Height;
@@ -118,6 +118,17 @@ namespace InvestingIncubator
             sr.Close();
             return results;
         }
+        public string SaveBalanceFromURL(string symbol)
+        {
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://" + $@"www.alphavantage.co/query?function=BALANCE_SHEET&symbol={symbol}&apikey={_apikey}&datatype=csv");
+            HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+
+            StreamReader sr = new StreamReader(resp.GetResponseStream());
+            string results = sr.ReadToEnd();
+            File.WriteAllText(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Balance\" + symbol + ".json", results);
+            sr.Close();
+            return results;
+        }
 
         float X, Y;
 
@@ -205,24 +216,6 @@ namespace InvestingIncubator
                 tableLayoutPanel2.SetCellPosition(closePrice, new TableLayoutPanelCellPosition(2, i+1));
             }
         }
-
-        private void ShowGraph(object sender, EventArgs e)
-        {
-            string name = ((Label)sender).Name;
-            string num = "";
-            foreach (var c in name)
-            {
-                if (char.IsNumber(c))
-                {
-                    num += c;
-                }
-            }
-            string[] files = Directory.GetFiles(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Stocks");
-            string sharename = files[int.Parse(num) - 1].Split('\\').Last().Split('.').First();
-            Form2 form2 = new Form2(sharename);
-            //form2.ShowDialog(this);
-            form2.Show(this);
-        }
         string currsharename;
         private void ShowOptions(object sender, EventArgs e)
         {
@@ -234,6 +227,15 @@ namespace InvestingIncubator
         }
         private void OnSelectCombo(object sender, EventArgs e)
         {
+            switch ((string)comboBox.SelectedItem)
+            {
+                case "History":
+                    ShowGraph(currsharename);
+                    break;
+                case "Income":
+                    ShowCashFlow(currsharename);
+                    break;
+            }
             if (((string)comboBox.SelectedItem) == "History")
             {
                 ShowGraph(currsharename);
@@ -260,6 +262,11 @@ namespace InvestingIncubator
         {
             Form2 form2 = new Form2(sharename);
             form2.Show(this);
+        }
+        private void ShowCashFlow(string sharename)
+        {
+            CashFlow form = new CashFlow(sharename);
+            form.Show(this);
         }
 
         float cash = 0f;
