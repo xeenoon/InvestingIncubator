@@ -200,28 +200,8 @@ namespace InvestingIncubator
             string sharename = files[int.Parse(num) - 1].Split('\\').Last().Split('.').First();
             Hide();
             Form2 form2 = new Form2(sharename);
-            form2.ShowDialog(this);
-        }
-
-        void HideData()
-        {
-            foreach (var control in Controls)
-            {
-                if (((Control)control).Name != "panel1")
-                {
-                    ((Control)control).Visible = false;
-                }
-            }
-        }
-        void ShowData()
-        {
-            foreach (var control in Controls)
-            {
-                if (((Control)control).Name != "panel1")
-                {
-                    ((Control)control).Visible = true;
-                }
-            }
+            //form2.ShowDialog(this);
+            form2.Show(this);
         }
 
         float cash = 0f;

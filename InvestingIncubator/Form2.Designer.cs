@@ -277,7 +277,6 @@ namespace InvestingIncubator
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(473, 144);
             this.label2.Name = "label2";
@@ -334,8 +333,12 @@ namespace InvestingIncubator
             this.Controls.Add(this.slider1Val);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.chart1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(893, 489);
+            this.MinimumSize = new System.Drawing.Size(893, 489);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.ShowIcon = false;
+            this.Text = "Share history";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.sliderHandle1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sliderHandle2)).EndInit();
