@@ -1,4 +1,7 @@
 ﻿
+using System;
+using System.Windows.Forms.DataVisualization.Charting;
+
 namespace InvestingIncubator
 {
     partial class Form2
@@ -46,9 +49,9 @@ namespace InvestingIncubator
             this.sliderHandle2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.chart1 = new InvestingIncubator.MagicChart();
+            this.chart1 = new Chart();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.chart2 = new InvestingIncubator.MagicChart();
+            this.chart2 = new Chart();
             this.sliderLine4 = new System.Windows.Forms.Panel();
             this.sliderLine3 = new System.Windows.Forms.Panel();
             this.percentageDiff2 = new System.Windows.Forms.Label();
@@ -358,11 +361,11 @@ namespace InvestingIncubator
         private System.Windows.Forms.Panel sliderLine2;
         private System.Windows.Forms.PictureBox sliderHandle1;
         private System.Windows.Forms.PictureBox sliderHandle2;
-        private MagicChart chart1;
+        private Chart chart1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
-        private MagicChart chart2;
+        private Chart chart2;
         private System.Windows.Forms.Panel sliderLine4;
         private System.Windows.Forms.Panel sliderLine3;
         private System.Windows.Forms.Label percentageDiff2;
