@@ -36,36 +36,6 @@ namespace InvestingIncubator
             pershare.Font = f;
             tableLayoutPanel1.SetCellPosition(pershare, new TableLayoutPanelCellPosition(2, 0));
 
-            Label operating = new Label();
-            tableLayoutPanel1.Controls.Add(operating);
-            operating.Text = "Operatingcashflow";
-            operating.Font = f;
-            tableLayoutPanel1.SetCellPosition(operating, new TableLayoutPanelCellPosition(0, 1));
-
-            Label investing = new Label();
-            tableLayoutPanel1.Controls.Add(investing);
-            investing.Text = "Investing cash flow";
-            investing.Font = f;
-            tableLayoutPanel1.SetCellPosition(investing, new TableLayoutPanelCellPosition(0, 2));
-
-            Label financing = new Label();
-            tableLayoutPanel1.Controls.Add(financing);
-            financing.Text = "Financing cash flow";
-            financing.Font = f;
-            tableLayoutPanel1.SetCellPosition(financing, new TableLayoutPanelCellPosition(0, 3));
-
-            Label dividend = new Label();
-            tableLayoutPanel1.Controls.Add(dividend);
-            dividend.Text = "Dividend payout";
-            dividend.Font = f;
-            tableLayoutPanel1.SetCellPosition(dividend, new TableLayoutPanelCellPosition(0, 4));
-
-            Label income = new Label();
-            tableLayoutPanel1.Controls.Add(income);
-            income.Text = "Income";
-            income.Font = f;
-            tableLayoutPanel1.SetCellPosition(income, new TableLayoutPanelCellPosition(0, 5));
-
             List<string> values = DataFromName(sharename);
             for (int i = 0; i < values.Count; ++i)
             {
@@ -124,6 +94,12 @@ namespace InvestingIncubator
         {
             List<string> file = File.ReadAllLines(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Balance\" + sharename + ".json").ToList();
             return float.Parse(TrimString(file[40].Split(':')[1].Substring(2), 2));
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            comboBox1.Visible = true;
+
         }
     }
 }

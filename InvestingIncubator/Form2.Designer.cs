@@ -49,9 +49,9 @@ namespace InvestingIncubator
             this.sliderHandle2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.chart1 = new Chart();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.chart2 = new Chart();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.sliderLine4 = new System.Windows.Forms.Panel();
             this.sliderLine3 = new System.Windows.Forms.Panel();
             this.percentageDiff2 = new System.Windows.Forms.Label();
