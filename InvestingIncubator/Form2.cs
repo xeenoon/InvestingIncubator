@@ -166,11 +166,6 @@ namespace InvestingIncubator
            sliderLine4.Location = new Point(sliderLine2.Location.X+ 471, sliderLine2.Location.Y);
         }
         public static int slidersPlaced = 0;
-
-        private void chart1_MouseUp(object sender, MouseEventArgs e)
-        {
-            Slider.Reset(((Chart)sender).CreateGraphics());
-        }
         bool _capturingMoves1 = false;
         bool _capturingMoves2 = false;
         private void sliderHandle2_MouseDown(object sender, MouseEventArgs e)

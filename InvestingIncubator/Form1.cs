@@ -198,7 +198,6 @@ namespace InvestingIncubator
             }
             string[] files = Directory.GetFiles(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Stocks");
             string sharename = files[int.Parse(num) - 1].Split('\\').Last().Split('.').First();
-            Hide();
             Form2 form2 = new Form2(sharename);
             //form2.ShowDialog(this);
             form2.Show(this);
