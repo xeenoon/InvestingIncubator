@@ -399,11 +399,11 @@ namespace InvestingIncubator
                 string name = ((Label)tableLayoutPanel2.Controls.Find("Name" + tickNo, true).FirstOrDefault()).Text;
                 string sharedata = string.Format("{0},{1}", name, text.Text);
                 file.Add(sharedata);
-                text.Text = "10000";
-                cash -= value;
                 var currdata = File.ReadAllLines("transactionhistory.txt").ToList();
                 currdata.Add(DateTime.Now.ToString() + "  -  " + "Bought " + text.Text + " " + name + " stocks for $" + value);
                 File.WriteAllLines("transactionhistory.txt", currdata);
+                text.Text = "10000";
+                cash -= value;
                 file.RemoveAt(0);
                 file.Insert(0, cash.ToString());
                 File.WriteAllLines("sharedata.txt", file.ToArray());
