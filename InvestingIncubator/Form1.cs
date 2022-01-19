@@ -401,6 +401,9 @@ namespace InvestingIncubator
                 file.Add(sharedata);
                 text.Text = "10000";
                 cash -= value;
+                var currdata = File.ReadAllLines("transactionhistory.txt").ToList();
+                currdata.Add(DateTime.Now.ToString() + "  -  " + "Bought " + text.Text + " " + name + " stock for $" + value);
+                File.WriteAllLines("transactionhistory.txt", currdata);
                 file.RemoveAt(0);
                 file.Insert(0, cash.ToString());
                 File.WriteAllLines("sharedata.txt", file.ToArray());
@@ -434,6 +437,9 @@ namespace InvestingIncubator
             lines.Remove(string.Format("{0},{1}", sharename,amount.ToString()));
             lines.RemoveAt(0);
             cash += value;
+            var currdata = File.ReadAllLines("transactionhistory.txt").ToList();
+            currdata.Add(DateTime.Now.ToString() + "  -  " + "Sold "+ amount + " " + sharename + " stocks for $" + value);
+            File.WriteAllLines("transactionhistory.txt", currdata);
             lines.Insert(0, (cash).ToString());
             File.WriteAllLines("sharedata.txt", lines.ToArray());
             label3.Text = "$" + cash.ToString();
@@ -441,9 +447,10 @@ namespace InvestingIncubator
             CreateTable();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            TransactionHistory transactionHistory = new TransactionHistory();
+            transactionHistory.Show(this);
         }
 
         private void setControls(float newX, float newY, Control cons)
