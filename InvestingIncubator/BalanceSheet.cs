@@ -17,15 +17,20 @@ namespace InvestingIncubator
         {
             InitializeComponent();
             label23.Text = sharename;
+            CreateBalanceSheet(sharename, tableLayoutPanel1);
+        }
+
+        private void CreateBalanceSheet(string sharename, TableLayoutPanel table)
+        {
             Font f = new Font("Microsoft Tai Le", 12);
             var items = DataFromName(sharename);
             for (int i = 0; i < 14; ++i)
             {
                 Label data = new Label();
-                tableLayoutPanel1.Controls.Add(data);
+                table.Controls.Add(data);
                 if (items[i] != "None" && items[i] != "")
                 {
-                    data.Text = '$' + AddLeaders((float.Parse(items[i])/1000f).ToString("N0"));
+                    data.Text = '$' + AddLeaders((float.Parse(items[i]) / 1000f).ToString("N0"));
                 }
                 else if (items[i] != "")
                 {
@@ -33,12 +38,12 @@ namespace InvestingIncubator
                 }
                 data.Font = f;
                 data.Width = 400;
-                tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(1, i));
+                table.SetCellPosition(data, new TableLayoutPanelCellPosition(1, i));
             }
             for (int i = 14; i < 26; ++i)
             {
                 Label data = new Label();
-                tableLayoutPanel1.Controls.Add(data);
+                table.Controls.Add(data);
                 if (items[i] != "None" && items[i] != "")
                 {
                     data.Text = '$' + AddLeaders((float.Parse(items[i]) / 1000f).ToString("N0"));
@@ -49,7 +54,7 @@ namespace InvestingIncubator
                 }
                 data.Width = 400;
                 data.Font = f;
-                tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(4, i-14));
+                table.SetCellPosition(data, new TableLayoutPanelCellPosition(4, i - 14));
             }
         }
 
@@ -127,6 +132,29 @@ namespace InvestingIncubator
         private void AddJSONItem(ref List<string> result, List<string> file, int lineno)
         {
             result.Add(TrimString(file[lineno].Split(':')[1].Substring(2), 2));
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.Visible == false)
+            {
+                string[] files = Directory.GetFiles(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Income");
+                foreach (var file in files)
+                {
+                    string data = file.Split('.')[0];
+                    comboBox1.Items.Add(data.Split(new string[] { "\\Income\\" }, StringSplitOptions.None)[1]);
+                }
+                comboBox1.Visible = true;
+            }
+            else
+            {
+                CreateBalanceSheet((string)comboBox1.SelectedItem, tableLayoutPanel2);
+                tableLayoutPanel2.Visible = true;
+                button1.Visible = false;
+                comboBox1.Visible = false;
+                label25.Text = (string)comboBox1.SelectedItem;
+                label25.Visible = true;
+            }
         }
     }
 }
