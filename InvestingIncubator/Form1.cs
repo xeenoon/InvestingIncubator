@@ -39,6 +39,7 @@ namespace InvestingIncubator
             };
             comboBox.Items.Add("History");
             comboBox.Items.Add("Income");
+            comboBox.Items.Add("Balance");
             comboBox.Location = PointToClient(System.Windows.Forms.Cursor.Position);
             comboBox.SelectedIndexChanged += new System.EventHandler(OnSelectCombo);
             Controls.Add(comboBox);
@@ -235,6 +236,9 @@ namespace InvestingIncubator
                 case "Income":
                     ShowCashFlow(currsharename);
                     break;
+                case "Balance":
+                    ShowBalance(currsharename);
+                    break;
             }
             if (((string)comboBox.SelectedItem) == "History")
             {
@@ -266,6 +270,11 @@ namespace InvestingIncubator
         private void ShowCashFlow(string sharename)
         {
             CashFlow form = new CashFlow(sharename);
+            form.Show(this);
+        }
+        private void ShowBalance(string sharename)
+        {
+            BalanceSheet form = new BalanceSheet(sharename);
             form.Show(this);
         }
 

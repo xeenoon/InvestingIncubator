@@ -49,12 +49,13 @@ namespace InvestingIncubator
                 tableLayoutPanel1.Controls.Add(data);
                 if (values[i] != "None")
                 {
-                    data.Text = '$' + float.Parse(values[i]).ToString("N0");
+                    data.Text = '$' + AddLeaders((float.Parse(values[i]) / 1000f).ToString("N0"));
                 }
                 else
                 {
                     data.Text = "$0";
                 }
+                data.Width = 400;
                 data.Font = f;
                 tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(1, i + 1));
             }
@@ -72,6 +73,7 @@ namespace InvestingIncubator
                 {
                     data.Text = "$0";
                 }
+                data.Width = 400;
                 data.Font = f;
                 data.Name = sharename + i.ToString();
                 tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(2, i + 1));
@@ -110,6 +112,22 @@ namespace InvestingIncubator
                 result += str[i];
             }
             return result;
+        }
+        private string AddLeaders(string v)
+        {
+            string result = "";
+            for (int i = 0; i < v.Length; ++i)
+            {
+                if (v[i] == ',')
+                {
+                    for (int j = i; j < 3; ++j)
+                    {
+                        result += " ";
+                    }
+                    break;
+                }
+            }
+            return result + v;
         }
         public float GetShareAmount(string sharename)
         {
