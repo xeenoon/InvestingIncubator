@@ -19,19 +19,29 @@ namespace InvestingIncubator
     {
         InvContext context;
         bool loaded = false;
-
+        ComboBox comboBox;
         public List<string> sharenames = new List<string>() {"AAPL", "AMZN", "DIS", "FB", "GOOG", "MSFT", "TSLA", "UBER"};
         public Form1()
         {
             context = new InvContext();
             InitializeComponent();
-            SaveCsvFromURL("TSLA");
-
+            //SaveBalanceFromURL("UBER");
+            //SaveIncomeFromURL("UBER");
             //this.Resize += new EventHandler(Form1_Resize);
             X = this.Width;
             Y = this.Height;
             CreateTable();
             ShowStockData();
+
+            comboBox = new ComboBox
+            {
+                Visible = false
+            };
+            comboBox.Items.Add("History");
+            comboBox.Items.Add("Income");
+            comboBox.Location = PointToClient(System.Windows.Forms.Cursor.Position);
+            comboBox.SelectedIndexChanged += new System.EventHandler(OnSelectCombo);
+            Controls.Add(comboBox);
 
             setTag(this);
             setTag(tableLayoutPanel1);
@@ -86,7 +96,7 @@ namespace InvestingIncubator
         }
 
         string _apikey = "R5Y2C5YF1MDYK3YX";
-        public string SaveCsvFromURL(string symbol)
+        public string SaveShareDataFromURL(string symbol)
         {
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://" + $@"www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={_apikey}&datatype=csv");
             HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
@@ -94,6 +104,28 @@ namespace InvestingIncubator
             StreamReader sr = new StreamReader(resp.GetResponseStream());
             string results = sr.ReadToEnd();
             File.WriteAllText(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Stocks\"+symbol+".csv", results);
+            sr.Close();
+            return results;
+        }
+        public string SaveIncomeFromURL(string symbol)
+        {
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://" + $@"www.alphavantage.co/query?function=CASH_FLOW&symbol={symbol}&apikey={_apikey}&datatype=csv");
+            HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+
+            StreamReader sr = new StreamReader(resp.GetResponseStream());
+            string results = sr.ReadToEnd();
+            File.WriteAllText(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Income\" + symbol + ".json", results);
+            sr.Close();
+            return results;
+        }
+        public string SaveBalanceFromURL(string symbol)
+        {
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://" + $@"www.alphavantage.co/query?function=BALANCE_SHEET&symbol={symbol}&apikey={_apikey}&datatype=csv");
+            HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+
+            StreamReader sr = new StreamReader(resp.GetResponseStream());
+            string results = sr.ReadToEnd();
+            File.WriteAllText(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Balance\" + symbol + ".json", results);
             sr.Close();
             return results;
         }
@@ -164,7 +196,7 @@ namespace InvestingIncubator
                 name.Text = sharename;
                 name.Font = f;
                 name.Name = "Name"+(i+1);
-                name.DoubleClick += new System.EventHandler(this.ShowGraph);
+                name.DoubleClick += new System.EventHandler(this.ShowOptions);
                 tableLayoutPanel2.SetCellPosition(name, new TableLayoutPanelCellPosition(0, i+1));
 
                 Label openPrice = new Label();
@@ -172,7 +204,7 @@ namespace InvestingIncubator
                 openPrice.Text = row[1].ToString();
                 openPrice.Font = f;
                 openPrice.Name = "Open"+(i+1);
-                openPrice.DoubleClick += new System.EventHandler(this.ShowGraph);
+                openPrice.DoubleClick += new System.EventHandler(this.ShowOptions);
                 tableLayoutPanel2.SetCellPosition(openPrice, new TableLayoutPanelCellPosition(1, i+1));
 
                 Label closePrice = new Label();
@@ -180,12 +212,37 @@ namespace InvestingIncubator
                 closePrice.Text = row[4].ToString();
                 closePrice.Font = f;
                 closePrice.Name = "Close"+(i+1);
-                closePrice.DoubleClick += new System.EventHandler(this.ShowGraph);
+                closePrice.DoubleClick += new System.EventHandler(this.ShowOptions);
                 tableLayoutPanel2.SetCellPosition(closePrice, new TableLayoutPanelCellPosition(2, i+1));
             }
         }
+        string currsharename;
+        private void ShowOptions(object sender, EventArgs e)
+        {
+            currsharename = FindShare(sender);
+            comboBox.Location = PointToClient(System.Windows.Forms.Cursor.Position);
+            comboBox.DroppedDown = true;
+            setTag(this);
+            //ShowGraph(sharename);
+        }
+        private void OnSelectCombo(object sender, EventArgs e)
+        {
+            switch ((string)comboBox.SelectedItem)
+            {
+                case "History":
+                    ShowGraph(currsharename);
+                    break;
+                case "Income":
+                    ShowCashFlow(currsharename);
+                    break;
+            }
+            if (((string)comboBox.SelectedItem) == "History")
+            {
+                ShowGraph(currsharename);
+            }
+        }
 
-        private void ShowGraph(object sender, EventArgs e)
+        private static string FindShare(object sender)
         {
             string name = ((Label)sender).Name;
             string num = "";
@@ -198,9 +255,18 @@ namespace InvestingIncubator
             }
             string[] files = Directory.GetFiles(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Stocks");
             string sharename = files[int.Parse(num) - 1].Split('\\').Last().Split('.').First();
+            return sharename;
+        }
+
+        private void ShowGraph(string sharename)
+        {
             Form2 form2 = new Form2(sharename);
-            //form2.ShowDialog(this);
             form2.Show(this);
+        }
+        private void ShowCashFlow(string sharename)
+        {
+            CashFlow form = new CashFlow(sharename);
+            form.Show(this);
         }
 
         float cash = 0f;
@@ -365,7 +431,11 @@ namespace InvestingIncubator
             ClearTable();
             CreateTable();
         }
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void setControls(float newX, float newY, Control cons)
         {
