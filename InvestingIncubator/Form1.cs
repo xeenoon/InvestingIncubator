@@ -402,7 +402,7 @@ namespace InvestingIncubator
                 text.Text = "10000";
                 cash -= value;
                 var currdata = File.ReadAllLines("transactionhistory.txt").ToList();
-                currdata.Add(DateTime.Now.ToString() + "  -  " + "Bought " + text.Text + " " + name + " stock for $" + value);
+                currdata.Add(DateTime.Now.ToString() + "  -  " + "Bought " + text.Text + " " + name + " stocks for $" + value);
                 File.WriteAllLines("transactionhistory.txt", currdata);
                 file.RemoveAt(0);
                 file.Insert(0, cash.ToString());
