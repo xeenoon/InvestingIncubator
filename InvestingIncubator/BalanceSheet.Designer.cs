@@ -377,7 +377,7 @@ namespace InvestingIncubator
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(681, 798);
+            this.label25.Location = new System.Drawing.Point(1435, 379);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(70, 26);
             this.label25.TabIndex = 4;
@@ -414,7 +414,7 @@ namespace InvestingIncubator
             this.tableLayoutPanel2.Controls.Add(this.label45, 2, 9);
             this.tableLayoutPanel2.Controls.Add(this.label46, 2, 10);
             this.tableLayoutPanel2.Controls.Add(this.label47, 2, 11);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 442);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(766, 23);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 14;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.39102F));
@@ -658,7 +658,7 @@ namespace InvestingIncubator
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(324, 648);
+            this.comboBox1.Location = new System.Drawing.Point(1078, 229);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(75, 21);
             this.comboBox1.TabIndex = 16;
@@ -666,7 +666,7 @@ namespace InvestingIncubator
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 618);
+            this.button1.Location = new System.Drawing.Point(1078, 199);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
@@ -678,7 +678,7 @@ namespace InvestingIncubator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 849);
+            this.ClientSize = new System.Drawing.Size(1509, 446);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label25);
@@ -686,6 +686,9 @@ namespace InvestingIncubator
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1525, 485);
+            this.MinimumSize = new System.Drawing.Size(1525, 485);
             this.Name = "BalanceSheet";
             this.Text = "BalanceSheet";
             this.tableLayoutPanel1.ResumeLayout(false);

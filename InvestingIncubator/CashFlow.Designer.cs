@@ -245,6 +245,9 @@ namespace InvestingIncubator
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(946, 336);
+            this.MinimumSize = new System.Drawing.Size(946, 336);
             this.Name = "CashFlow";
             this.Text = "CashFlow";
             this.tableLayoutPanel1.ResumeLayout(false);
