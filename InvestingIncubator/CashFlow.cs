@@ -16,8 +16,14 @@ namespace InvestingIncubator
         public CashFlow(string sharename)
         {
             InitializeComponent();
+            var tableLayoutPanel1 = this.tableLayoutPanel1;
+            CreateCashFlowTable(sharename, tableLayoutPanel1);
+        }
+        List<string> sharenames = new List<string>();
+        private void CreateCashFlowTable(string sharename, TableLayoutPanel tableLayoutPanel1)
+        {
+            sharenames.Add(sharename);
             Font f = new Font("Microsoft Tai Le", 12);
-
             Label name = new Label();
             tableLayoutPanel1.Controls.Add(name);
             name.Text = sharename;
@@ -41,7 +47,14 @@ namespace InvestingIncubator
             {
                 Label data = new Label();
                 tableLayoutPanel1.Controls.Add(data);
-                data.Text = '$' + values[i];
+                if (values[i] != "None")
+                {
+                    data.Text = '$' + float.Parse(values[i]).ToString("N0");
+                }
+                else
+                {
+                    data.Text = "$0";
+                }
                 data.Font = f;
                 tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(1, i + 1));
             }
@@ -51,8 +64,16 @@ namespace InvestingIncubator
             {
                 Label data = new Label();
                 tableLayoutPanel1.Controls.Add(data);
-                data.Text = '$' + (float.Parse(values[i])/totalshares).ToString();
+                try
+                {
+                    data.Text = '$' + Math.Round(float.Parse(values[i]) / totalshares, 2).ToString();
+                }
+                catch
+                {
+                    data.Text = "$0";
+                }
                 data.Font = f;
+                data.Name = sharename + i.ToString();
                 tableLayoutPanel1.SetCellPosition(data, new TableLayoutPanelCellPosition(2, i + 1));
             }
         }
@@ -93,13 +114,51 @@ namespace InvestingIncubator
         public float GetShareAmount(string sharename)
         {
             List<string> file = File.ReadAllLines(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Balance\" + sharename + ".json").ToList();
-            return float.Parse(TrimString(file[40].Split(':')[1].Substring(2), 2));
+            return float.Parse(TrimString(file[41].Split(':')[1].Substring(2), 2));
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            comboBox1.Visible = true;
+            if (comboBox1.Visible == false)
+            {
+                string[] files = Directory.GetFiles(@"C:\Users\chris\source\repos\InvestingIncubator\InvestingIncubator\bin\Debug\Income");
+                foreach (var file in files)
+                {
+                    string data = file.Split('.')[0];
+                    comboBox1.Items.Add(data.Split(new string[] { "\\Income\\" }, StringSplitOptions.None)[1]);
+                }
+                comboBox1.Visible = true;
+            }
+            else
+            {
+                CreateCashFlowTable((string)comboBox1.SelectedItem, tableLayoutPanel2);
+                panel1.Visible = true;
+                tableLayoutPanel2.Visible = true;
+                button1.Visible = false;
+                comboBox1.Visible = false;
+                HighlightDifferencees(tableLayoutPanel1, tableLayoutPanel2);
+            }
+        }
 
+        private void HighlightDifferencees(TableLayoutPanel tableLayoutPanel1, TableLayoutPanel tableLayoutPanel2)
+        {
+            string firstname  = sharenames[0];
+            string secondname = sharenames[1];
+            for (int i = 0; i < 5; ++i)
+            {
+                float firstnum = float.Parse(tableLayoutPanel1.Controls.Find(firstname + i, true).FirstOrDefault().Text.Substring(1));
+                float secondnum = float.Parse(tableLayoutPanel2.Controls.Find(secondname + i, true).FirstOrDefault().Text.Substring(1));
+                if (firstnum > secondnum)
+                {
+                    tableLayoutPanel1.Controls.Find(firstname + i, true).FirstOrDefault().ForeColor = Color.Green;
+                    tableLayoutPanel2.Controls.Find(secondname + i, true).FirstOrDefault().ForeColor = Color.Red;
+                }
+                else
+                {
+                    tableLayoutPanel1.Controls.Find(firstname + i, true).FirstOrDefault().ForeColor = Color.Red;
+                    tableLayoutPanel2.Controls.Find(secondname + i, true).FirstOrDefault().ForeColor = Color.Green;
+                }
+            }
         }
     }
 }
