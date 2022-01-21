@@ -453,6 +453,12 @@ namespace InvestingIncubator
             transactionHistory.Show(this);
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            JobSimulator jobsimulator = new JobSimulator();
+            jobsimulator.Show(this);
+        }
+
         private void setControls(float newX, float newY, Control cons)
         {
             foreach (Control con in cons.Controls)

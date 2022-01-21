@@ -76,6 +76,12 @@ namespace InvestingIncubator
             this.shareHoldingBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.shareBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.shareHoldingBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Back1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Back2)).BeginInit();
@@ -97,6 +103,8 @@ namespace InvestingIncubator
             ((System.ComponentModel.ISupportInitialize)(this.shareHoldingBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shareBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shareHoldingBindingSource1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -580,11 +588,79 @@ namespace InvestingIncubator
             // 
             this.shareHoldingBindingSource1.DataSource = typeof(InvestingIncubator.ShareHolding);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(195)))), ((int)(((byte)(78)))));
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(37, 348);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(354, 141);
+            this.panel2.TabIndex = 42;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(185, 97);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(70, 27);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Open";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(126, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(144, 21);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Salary: $0 Weekly";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(126, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(205, 21);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Occupation: Unemployed";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(7, 35);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 7);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(114, 21);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Job simulator";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Tick8);
@@ -650,6 +726,9 @@ namespace InvestingIncubator
             ((System.ComponentModel.ISupportInitialize)(this.shareHoldingBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shareBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shareHoldingBindingSource1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -702,6 +781,12 @@ namespace InvestingIncubator
         private System.Windows.Forms.PictureBox Tick1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
     }
 }
 
