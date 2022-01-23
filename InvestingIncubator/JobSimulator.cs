@@ -16,6 +16,9 @@ namespace InvestingIncubator
         public JobSimulator()
         {
             InitializeComponent();
+            CreateJob(Job.JobType.RocketSurgeon);
+            CreateJob(Job.JobType.CarSalesman);
+            CreateJob(Job.JobType.HeadChef);
         }
         
         private void DropdownClick(object sender, EventArgs e)
@@ -78,42 +81,14 @@ namespace InvestingIncubator
         {
 
         }
-        int timesdone = 0;
-        float finalheight;
-        bool first;
-        private void flowLayoutPanel1_ClientSizeChanged(object sender, EventArgs e)
+        public void CreateJob(Job.JobType jobType)
         {
-        //    if(flowLayoutPanel1.HorizontalScroll.Visible)
-        //    {
-                //              int bob = 3;
-                //             foreach (var item in flowLayoutPanel1.Controls)
-                //            {
-                //               bob += ((Control)item).Height * 2;
-                //          }
-                int bob = 3;
-                foreach (var item in flowLayoutPanel1.Controls)
-                {
-                    Control ctrl = ((Control)item);
-                    if (ctrl.Left > 500)
-                    {
-                        int fred = ctrl.Top + ctrl.Height;
-                        if (fred > bob)
-                        {
-                            bob = fred;
-                        }
-                    }
-                }
-            if (bob > 3)
-            {
-                flowLayoutPanel1.Height += bob;
-                timesdone++;
-                label1.Text = timesdone.ToString();
-            }
-        //    }
-            if (timesdone == 111)
-            {
-
-            }
+            var jobItem = new JobItem(Job.Jobs[jobType]);
+            flowLayoutPanel1.Controls.Add(jobItem);
+            jobItem.Location = new System.Drawing.Point(3, 3);
+            jobItem.Name = "jobItem1";
+            jobItem.Size = new System.Drawing.Size(200, 22);
+            jobItem.TabIndex = 0;
         }
-    }
+     }
 }
