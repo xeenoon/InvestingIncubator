@@ -90,5 +90,10 @@ namespace InvestingIncubator
             jobItem.Size = new System.Drawing.Size(200, 22);
             jobItem.TabIndex = 0;
         }
-     }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

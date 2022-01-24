@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Wassup ma name is bob and i love to eat doughnuts
+Im not real good at math or writing, but I am sick at using a skateboard!
+My previous bosses thought I was a bit crazy, but you know better right???
+You can tell from this resume that I am completely sane
+Because you're smart... not like those doctors from mexico
+Anyway... I deserve this job because I want it more than everyone else</value>
+  </data>
 </root>

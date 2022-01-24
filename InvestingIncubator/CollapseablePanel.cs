@@ -27,10 +27,10 @@ namespace InvestingIncubator
         {
             InitializeComponent();
             this.job = job;
-            Font f = new Font("Microsoft Tai Le", 12);
+            Font f = new Font("Microsoft Tai Le", 10);
             label1.Text = job.ToString();
             name1.Text = job.jobTitle;
-            label1.Size = new Size(label1.Width, (int)Math.Ceiling(CreateGraphics().MeasureString(job.ToString(), f, label1.Width).Height));
+            label1.Size = new Size(label1.Width, (int)Math.Ceiling(CreateGraphics().MeasureString(job.ToString(), f, label1.Width).Height + 10));
         }
         private void DropdownClick(object sender, EventArgs e)
         {
