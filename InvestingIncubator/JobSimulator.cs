@@ -19,7 +19,7 @@ namespace InvestingIncubator
             InitializeComponent();
             CreateJob(Job.JobType.RocketSurgeon);
             CreateJob(Job.JobType.CarSalesman);
-            CreateJob(Job.JobType.HeadChef);
+            CreateJob(Job.JobType.Cook);
         }
         
         private void DropdownClick(object sender, EventArgs e)
@@ -80,6 +80,11 @@ namespace InvestingIncubator
 
         private void JobSimulator_Load(object sender, EventArgs e)
         {
+            UpdateDescription();
+        }
+
+        public void UpdateDescription()
+        {
             List<string> file = File.ReadAllLines("jobdata.txt").ToList();
             List<Job.JobType> jobtypes = new List<Job.JobType>();
             foreach (var line in file)
@@ -88,8 +93,8 @@ namespace InvestingIncubator
             }
             label2.Text = Job.Jobs[jobtypes[0]].ToString();
             jobtypes.RemoveAt(0);
-            label2.Text = label2.Text.Substring(0, label2.Text.PositionOf("Prerequisite")+1);
-            label2.Text += "Previous jobs: \n";
+            label2.Text = label2.Text.Substring(0, label2.Text.PositionOf("Prerequisite") + 1);
+            label2.Text += "\nPrevious jobs: \n";
             foreach (var job in jobtypes)
             {
                 label2.Text += "    -";
@@ -97,13 +102,14 @@ namespace InvestingIncubator
                 label2.Text += '\n';
             }
         }
+
         public void CreateJob(Job.JobType jobType)
         {
             var jobItem = new JobItem(Job.Jobs[jobType]);
             flowLayoutPanel1.Controls.Add(jobItem);
-            jobItem.Location = new System.Drawing.Point(3, 3);
+            jobItem.Location = new Point(3, 3);
             jobItem.Name = "jobItem1";
-            jobItem.Size = new System.Drawing.Size(200, 22);
+            jobItem.Size = new Size(200, 22);
             jobItem.TabIndex = 0;
         }
 

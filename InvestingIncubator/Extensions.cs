@@ -9,8 +9,7 @@ namespace InvestingIncubator
     public static class Extensions
     {
         /// <summary>
-        /// Finds the index of 'find' in the string
-        /// Will return -1 if find is not in the string
+        /// Finds the index of 'find' in the string. Will return -1 if 'find' is not in the string
         /// </summary>
         /// <param name="find"></param>
         /// The string to look for
@@ -27,6 +26,35 @@ namespace InvestingIncubator
                 }
             }
             return -1;
+        }
+        /// <summary>
+        /// Determines if all of the elements in find are in the list
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// The type of list
+        /// <param name="find"></param>
+        /// List of items to look for in the string
+        /// <returns></returns>
+        public static bool Contains<T>(this List<T> list, List<T> find)
+        {
+            foreach (var obj in find)
+            {
+                if (!list.Contains(obj))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public static List<string> ToStringList<T>(this List<T> list)
+        {
+            List<string> result = new List<string>();
+            foreach (var obj in list)
+            {
+                result.Add(obj.ToString());
+            }
+            return result;
         }
     }
 }

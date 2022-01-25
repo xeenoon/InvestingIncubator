@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,23 @@ namespace InvestingIncubator
                 pictureBox1.Image = (Image)Resources.ResourceManager.GetObject("Collapse");
             }
             Height = panel1.Height + 12;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var file = File.ReadAllLines("jobdata.txt").ToList();
+            string jobtype = Job.Jobs.FirstOrDefault(j => j.Value == job).Key.ToString();
+            if (!(file[0] == jobtype) && file.Contains(job.prerequisites.ToStringList()))
+            {
+                MessageBox.Show("You have successfully applied for this job");
+                file.Insert(0, jobtype);
+                File.WriteAllLines("jobdata.txt", file.ToArray());
+            }
+            else
+            {
+                MessageBox.Show("You were unsuccessful in applying for this job");
+            }
+            ((JobSimulator)this.Parent.Parent.Parent).UpdateDescription();
         }
     }
     public class Job
