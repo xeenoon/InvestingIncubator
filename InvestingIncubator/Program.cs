@@ -16,6 +16,8 @@ namespace InvestingIncubator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Job.PopulateJobs();
             Application.Run(new Form1());
         }
     }

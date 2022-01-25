@@ -25,6 +25,35 @@ namespace InvestingIncubator
         {
             context = new InvContext();
             InitializeComponent();
+
+            List<string> file = File.ReadAllLines("jobdata.txt").ToList();
+            float payment = 0f;
+            if (file.Count() != 0)
+            {
+                var jobtype = Job.Parse(file[0]);
+                var job = Job.Jobs[jobtype];
+                payment = job.payment;
+                label6.Text = "Occupation: " + job.jobTitle;
+                label7.Text = "Salary: $" + job.payment.ToString() + " Weekly";
+            }
+
+            string datedata = File.ReadAllText("lastpaydata.txt");
+            if (datedata == "")
+            {
+                File.WriteAllText("lastpaydata.txt", DateTime.Now.ToString());
+            }
+            else
+            {
+                DateTime prev = DateTime.Parse(datedata);
+                while ((DateTime.Now - prev).TotalDays >= 7)
+                {
+                    var newcash = (float.Parse(File.ReadAllLines("sharedata.txt")[0]) + payment).ToString();
+                    File.WriteAllText("sharedata.txt", newcash);
+                    prev = prev.AddDays(7);
+                }
+                File.WriteAllText("lastpaydata.txt", prev.ToString());
+            }
+
             //SaveBalanceFromURL("UBER");
             //SaveIncomeFromURL("UBER");
             //this.Resize += new EventHandler(Form1_Resize);
@@ -53,16 +82,6 @@ namespace InvestingIncubator
             ResizeAndPositionControls();
 
             context.Shares.Load();
-
-            //            context.Shares.Add(new Share() { ShareId = 1, Name = "APPL", LastBuy = 123.34, LastSell = 126.89 });
-            //            context.Shares.Add(new Share() { ShareId = 1, Name = "GOOG", LastBuy = 123.34, LastSell = 126.89 });
-            //            context.SaveChanges();
-
-            //            sharesGridView.DataSource = context.Shares.Local.ToBindingList();
-            //            sharesGridView.UserDeletedRow += SharesGridView_UserDeletedRow;
-            //            sharesGridView.UserDeletingRow += SharesGridView_UserDeletingRow;
-            //            sharesGridView.UserAddedRow += SharesGridView_UserAddedRow;
-            //            sharesGridView.CellValueChanged += SharesGridView_CellValueChanged;
         }
 
         private void SharesGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
@@ -451,6 +470,12 @@ namespace InvestingIncubator
         {
             TransactionHistory transactionHistory = new TransactionHistory();
             transactionHistory.Show(this);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            JobSimulator jobsimulator = new JobSimulator();
+            jobsimulator.Show(this);
         }
 
         private void setControls(float newX, float newY, Control cons)
