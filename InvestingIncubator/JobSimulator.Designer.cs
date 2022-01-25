@@ -83,13 +83,13 @@ namespace InvestingIncubator
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(344, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 95);
+            this.label2.Size = new System.Drawing.Size(342, 569);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Job title:\r\nJob description\r\nJob pay:\r\n\r\nPrevious jobs:";
+            this.label2.Text = "Job title:\r\nJob description is a thing that you have if there are lots of things " +
+    "to talk about\r\nJob pay:\r\n\r\nPrevious jobs:";
             // 
             // JobSimulator
             // 

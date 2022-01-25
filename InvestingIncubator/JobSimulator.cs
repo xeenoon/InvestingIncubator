@@ -86,6 +86,11 @@ namespace InvestingIncubator
         public void UpdateDescription()
         {
             List<string> file = File.ReadAllLines("jobdata.txt").ToList();
+            if (file.Count() == 0)
+            {
+                label2.Text = "No job history";
+                return;
+            }
             List<Job.JobType> jobtypes = new List<Job.JobType>();
             foreach (var line in file)
             {
