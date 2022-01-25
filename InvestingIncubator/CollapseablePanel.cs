@@ -123,6 +123,139 @@ namespace InvestingIncubator
             JuniorLawyer,
             LawPartner,
             Judge,
+            None
+        }
+
+        internal static JobType Parse(string line)
+        {
+            switch (line)
+            {
+                case "RubbishCollector":
+                    return JobType.RubbishCollector;
+                case "Waiter":
+                    return JobType.Waiter;
+                case "RocketSurgeon":
+                    return JobType.RocketSurgeon;
+                case "FactoryWorker":
+                    return JobType.FactoryWorker;
+                case "FactorySupervisor":
+                    return JobType.FactorySupervisor;
+                case "FactoryManager":
+                    return JobType.FactoryManager;
+                case "CarSalesman":
+                    return JobType.CarSalesman;
+                case "Cook":
+                    return JobType.Cook;
+                case "HeadChef":
+                    return JobType.HeadChef;
+                case "JuniorProgrammer":
+                    return JobType.JuniorProgrammer;
+                case "Programmer":
+                    return JobType.Programmer;
+                case "SeniorProgrammer":
+                    return JobType.SeniorProgrammer;
+                case "ProgrammingManager":
+                    return JobType.ProgrammingManager;
+                case "Accountant":
+                    return JobType.Accountant;
+                case "TaxAccountant":
+                    return JobType.TaxAccountant;
+                case "SeniorTaxAccountant":
+                    return JobType.SeniorTaxAccountant;
+                case "TaxInvestigator":
+                    return JobType.TaxInvestigator;
+                case "SeniorTaxInvestigator":
+                    return JobType.SeniorTaxInvestigator;
+                case "AccountingManager":
+                    return JobType.AccountingManager;
+                case "Plumber":
+                    return JobType.Plumber;
+                case "InternDoctor":
+                    return JobType.InternDoctor;
+                case "Resident":
+                    return JobType.Resident;
+                case "Attending":
+                    return JobType.Attending;
+                case "Surgeon":
+                    return JobType.Surgeon;
+                case "HeartSurgeon":
+                    return JobType.HeartSurgeon;
+                case "PediatricSurgeon":
+                    return JobType.PediatricSurgeon;
+                case "BrainSurgeon":
+                    return JobType.BrainSurgeon;
+                case "CasualGamer":
+                    return JobType.CasualGamer;
+                case "TryHardGamer":
+                    return JobType.TryHardGamer;
+                case "ProGamer":
+                    return JobType.ProGamer;
+                case "VideoGameMaker":
+                    return JobType.VideoGameMaker;
+                case "VideoGameDesigner":
+                    return JobType.VideoGameDesigner;
+                case "VideoGameCompanyManager":
+                    return JobType.VideoGameCompanyManager;
+                case "Pharmicist":
+                    return JobType.Pharmicist;
+                case "PharmacyOwner":
+                    return JobType.PharmacyOwner;
+                case "JuniorPharmasuticalResearcher":
+                    return JobType.JuniorPharmasuticalResearcher;
+                case "PharmasuticalResearcher":
+                    return JobType.PharmasuticalResearcher;
+                case "JuniorEngineer":
+                    return JobType.JuniorEngineer;
+                case "Engineer":
+                    return JobType.Engineer;
+                case "SeniorEngineer":
+                    return JobType.SeniorEngineer;
+                case "EngineeringManager":
+                    return JobType.EngineeringManager;
+                case "Scientest":
+                    return JobType.Scientest;
+                case "CorporateScientest":
+                    return JobType.CorporateScientest;
+                case "AIResearcher":
+                    return JobType.AIResearcher;
+                case "SelfDriveCarDesigner":
+                    return JobType.SelfDriveCarDesigner;
+                case "AIRocketeer":
+                    return JobType.AIRocketeer;
+                case "BurgerFlipper":
+                    return JobType.BurgerFlipper;
+                case "SandwichMaker":
+                    return JobType.SandwichMaker;
+                case "SandwichDesigner":
+                    return JobType.SandwichDesigner;
+                case "FastFoodChainOwner":
+                    return JobType.FastFoodChainOwner;
+                case "FastFoodFranchise":
+                    return JobType.FastFoodFranchise;
+                case "Receptionist":
+                    return JobType.Receptionist;
+                case "ComputerSalesman":
+                    return JobType.ComputerSalesman;
+                case "Policeman":
+                    return JobType.Policeman;
+                case "FederalAgent":
+                    return JobType.FederalAgent;
+                case "IntelligenceAnalyst":
+                    return JobType.IntelligenceAnalyst;
+                case "Spy":
+                    return JobType.Spy;
+                case "Superspy":
+                    return JobType.Superspy;
+                case "Lawyer":
+                    return JobType.Lawyer;
+                case "JuniorLawyer":
+                    return JobType.JuniorLawyer;
+                case "LawPartner":
+                    return JobType.LawPartner;
+                case "Judge":
+                    return JobType.Judge;
+            }
+            return JobType.None;
         }
 
         public static void PopulateJobs()

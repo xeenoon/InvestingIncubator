@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -79,7 +80,22 @@ namespace InvestingIncubator
 
         private void JobSimulator_Load(object sender, EventArgs e)
         {
-
+            List<string> file = File.ReadAllLines("jobdata.txt").ToList();
+            List<Job.JobType> jobtypes = new List<Job.JobType>();
+            foreach (var line in file)
+            {
+                jobtypes.Add(Job.Parse(line));
+            }
+            label2.Text = Job.Jobs[jobtypes[0]].ToString();
+            jobtypes.RemoveAt(0);
+            label2.Text = label2.Text.Substring(0, label2.Text.PositionOf("Prerequisite")+1);
+            label2.Text += "Previous jobs: \n";
+            foreach (var job in jobtypes)
+            {
+                label2.Text += "    -";
+                label2.Text += Job.Jobs[job].jobTitle;
+                label2.Text += '\n';
+            }
         }
         public void CreateJob(Job.JobType jobType)
         {
