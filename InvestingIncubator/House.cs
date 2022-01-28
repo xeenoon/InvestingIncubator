@@ -29,7 +29,7 @@ namespace InvestingIncubator
             for (int i = 0; i < roomcount; ++i)
             {
                 Array values = Enum.GetValues(typeof(Room.RoomType));
-                Room.RoomType randomRoom = (Room.RoomType)values.GetValue(r.Next(values.Length));
+                Room.RoomType randomRoom = (Room.RoomType)values.GetValue(r.Next(values.Length-1));
 
                 rooms.Add(new Room(r.Next(rating - 2, rating + 2), randomRoom));
             }
