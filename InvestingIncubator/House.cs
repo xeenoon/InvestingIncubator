@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,11 +33,13 @@ namespace InvestingIncubator
 
                 rooms.Add(new Room(r.Next(rating - 2, rating + 2), randomRoom));
             }
+            rooms.Add(new Room(0,Room.RoomType.Hallway));
             return new House(rooms);
         }
     }
     public class Room
     {
+        public Rectangle area;
         public enum RoomType
         {
             Kitchen,
@@ -44,7 +47,8 @@ namespace InvestingIncubator
             Lounge,
             Bathroom,
             Bedroom,
-            Garage
+            Garage,
+            Hallway
         }
         public RoomType roomType;
         public List<RoomObject> roomObjects = new List<RoomObject>();
@@ -124,7 +128,9 @@ namespace InvestingIncubator
                     roomObjects.Add(new RoomObject(r.Next(min, max), RoomObject.ApplianceType.Tap));
                     roomObjects.Add(new RoomObject(r.Next(min, max), RoomObject.ApplianceType.Shower));
                     roomObjects.Add(new RoomObject(r.Next(min, max), RoomObject.ApplianceType.Bath));
-                    break;                              
+                    break;
+                case RoomType.Hallway:
+                    break;
                 default:                                
                     roomObjects.Add(new RoomObject(r.Next(min, max), RoomObject.ApplianceType.Wall));
                     roomObjects.Add(new RoomObject(r.Next(min, max), RoomObject.ApplianceType.Lights));

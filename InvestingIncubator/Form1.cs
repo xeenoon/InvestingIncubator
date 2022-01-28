@@ -478,6 +478,12 @@ namespace InvestingIncubator
             jobsimulator.Show(this);
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            PropertyMarket propertyMarket = new PropertyMarket();
+            propertyMarket.Show(this);
+        }
+
         private void setControls(float newX, float newY, Control cons)
         {
             foreach (Control con in cons.Controls)
