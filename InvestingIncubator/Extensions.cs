@@ -56,5 +56,14 @@ namespace InvestingIncubator
             }
             return result;
         }
+        public static List<T> Copy<T>(this List<T> list)
+        {
+            List<T> result = new List<T>();
+            foreach (var item in list)
+            {
+                result.Add(item);
+            }
+            return result;
+        }
     }
 }
