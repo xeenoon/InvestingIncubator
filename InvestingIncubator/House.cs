@@ -88,6 +88,10 @@ namespace InvestingIncubator
             foreach (var room in privaterooms)
             {
                 room.area = new Rectangle(0, 0, r.Next(20, 50), r.Next(20, 50));
+                if (room.roomType == Room.RoomType.Bathroom)
+                {
+                    room.area = new Rectangle(0, 0, r.Next(10, 30), r.Next(10, 30));
+                }
             } //Generate random areas for all the rooms
             int times = 0;
             while (publicrooms.Count != 0 && !(times == 10000)) //Run until all rooms are placed
