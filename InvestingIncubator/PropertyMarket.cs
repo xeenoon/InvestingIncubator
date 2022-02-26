@@ -16,7 +16,6 @@ namespace InvestingIncubator
         {
             InitializeComponent();
         }
-
         private void PropertyMarket_Paint(object sender, PaintEventArgs e)
         {
             CheckBoundries(ref minOverallStars, 0, 5, minOverallStars_Text);

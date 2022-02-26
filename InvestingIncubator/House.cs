@@ -15,10 +15,32 @@ namespace InvestingIncubator
             Classic,
         }
         public Rooms rooms = new Rooms();
-
+        public int areastars;
+        public int landsize;
+        public int housesize;
         public House(Rooms rooms)
         {
             this.rooms = rooms;
+        }
+        public static Dictionary<House, PriceRange> GeneratePropertyMarket()
+        {
+            Dictionary<House, PriceRange> result = new Dictionary<House, PriceRange>();
+            Random r = new Random();
+            int houses = r.Next(1000,10000);
+            for (int i = 0; i < houses; ++i)
+            {
+                House h = Random();
+                var value = h.CalculateValue();
+                float modified = (float)(value + (value*(r.NextDouble()-0.5))/10);
+                PriceRange p = new PriceRange(modified/2, modified*1.1f);
+                result.Add(h,p);
+            }
+            return result;
+        }
+        public int CalculateValue()
+        {
+            //Use machine learning to estimate the value of the house
+            return 1000000;
         }
         public static House Random()
         {
@@ -170,9 +192,29 @@ namespace InvestingIncubator
                     rm.area.Width += (room.area.X - rm.area.Right); //Reset its height to hit the top of this room
                 }
             }
-            return new House(rooms);
+            var result = new House(rooms);
+            int bottom = rooms.OrderByDescending(rm => rm.area.Y).FirstOrDefault().area.Bottom;
+            int right  = rooms.OrderByDescending(rm => rm.area.X).FirstOrDefault().area.Right;
+            result.landsize = right * bottom;
+            result.housesize = rooms.Select(rm=>rm.area.Area()).Sum();
+            result.areastars = r.Next(1,6);
+            return result;
         }
     }
+
+    public class PriceRange
+    {
+        public PriceRange(float auctionStart, float buynow)
+        {
+            this.auctionStart = auctionStart;
+            this.buynow = buynow;
+        }
+        public float auctionStart;
+        public float auctionCurrent;
+
+        public float buynow;
+    }
+
     public class Room
     {
         public bool placed;

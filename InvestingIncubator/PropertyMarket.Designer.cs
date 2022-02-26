@@ -212,6 +212,8 @@ namespace InvestingIncubator
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -2178,11 +2180,34 @@ namespace InvestingIncubator
             this.label77.TabIndex = 0;
             this.label77.Text = "Modern";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(698, 828);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 32);
+            this.button1.TabIndex = 49;
+            this.button1.Text = "Next page";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(39, 828);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 32);
+            this.button2.TabIndex = 50;
+            this.button2.Text = "Prev page";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
+            // 
             // PropertyMarket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1443, 862);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel22);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.panel20);
@@ -2456,5 +2481,7 @@ namespace InvestingIncubator
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
