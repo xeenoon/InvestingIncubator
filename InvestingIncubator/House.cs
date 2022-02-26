@@ -9,6 +9,11 @@ namespace InvestingIncubator
 {
     public class House
     {
+        public enum HouseType
+        {
+            Modern,
+            Classic,
+        }
         public Rooms rooms = new Rooms();
 
         public House(Rooms rooms)
