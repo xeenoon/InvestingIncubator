@@ -132,126 +132,132 @@ namespace InvestingIncubator
             this.label31 = new System.Windows.Forms.Label();
             this.button57 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.label69 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
+            this.house1 = new System.Windows.Forms.Panel();
+            this.house1pic = new System.Windows.Forms.PictureBox();
+            this.house1bin = new System.Windows.Forms.Label();
+            this.house1auc = new System.Windows.Forms.Label();
+            this.house1type = new System.Windows.Forms.Label();
+            this.house2 = new System.Windows.Forms.Panel();
+            this.house2pic = new System.Windows.Forms.PictureBox();
+            this.house2bin = new System.Windows.Forms.Label();
+            this.house2auc = new System.Windows.Forms.Label();
+            this.house2type = new System.Windows.Forms.Label();
+            this.house3 = new System.Windows.Forms.Panel();
+            this.house3pic = new System.Windows.Forms.PictureBox();
+            this.house3bin = new System.Windows.Forms.Label();
+            this.house3auc = new System.Windows.Forms.Label();
+            this.house3type = new System.Windows.Forms.Label();
+            this.house4 = new System.Windows.Forms.Panel();
+            this.house4pic = new System.Windows.Forms.PictureBox();
+            this.house4bin = new System.Windows.Forms.Label();
+            this.house4auc = new System.Windows.Forms.Label();
+            this.house4type = new System.Windows.Forms.Label();
+            this.house5 = new System.Windows.Forms.Panel();
+            this.house5pic = new System.Windows.Forms.PictureBox();
+            this.house5bin = new System.Windows.Forms.Label();
+            this.house5auc = new System.Windows.Forms.Label();
+            this.house5type = new System.Windows.Forms.Label();
+            this.house6 = new System.Windows.Forms.Panel();
+            this.house6pic = new System.Windows.Forms.PictureBox();
+            this.house6bin = new System.Windows.Forms.Label();
+            this.house6auc = new System.Windows.Forms.Label();
+            this.house6type = new System.Windows.Forms.Label();
+            this.house7 = new System.Windows.Forms.Panel();
+            this.house7pic = new System.Windows.Forms.PictureBox();
+            this.house7bin = new System.Windows.Forms.Label();
+            this.house7auc = new System.Windows.Forms.Label();
+            this.house7type = new System.Windows.Forms.Label();
+            this.house8 = new System.Windows.Forms.Panel();
+            this.house8pic = new System.Windows.Forms.PictureBox();
+            this.house8bin = new System.Windows.Forms.Label();
+            this.house8auc = new System.Windows.Forms.Label();
+            this.house8type = new System.Windows.Forms.Label();
+            this.house9 = new System.Windows.Forms.Panel();
+            this.house9pic = new System.Windows.Forms.PictureBox();
+            this.house9bin = new System.Windows.Forms.Label();
+            this.house9auc = new System.Windows.Forms.Label();
+            this.house9type = new System.Windows.Forms.Label();
+            this.house10 = new System.Windows.Forms.Panel();
+            this.house10pic = new System.Windows.Forms.PictureBox();
+            this.house10bin = new System.Windows.Forms.Label();
+            this.house10auc = new System.Windows.Forms.Label();
+            this.house10type = new System.Windows.Forms.Label();
+            this.house11 = new System.Windows.Forms.Panel();
+            this.house11pic = new System.Windows.Forms.PictureBox();
+            this.house11bin = new System.Windows.Forms.Label();
+            this.house11auc = new System.Windows.Forms.Label();
+            this.house11type = new System.Windows.Forms.Label();
+            this.house12 = new System.Windows.Forms.Panel();
+            this.house12pic = new System.Windows.Forms.PictureBox();
+            this.house12bin = new System.Windows.Forms.Label();
+            this.house12auc = new System.Windows.Forms.Label();
+            this.house12type = new System.Windows.Forms.Label();
+            this.house13 = new System.Windows.Forms.Panel();
+            this.house13pic = new System.Windows.Forms.PictureBox();
+            this.house13bin = new System.Windows.Forms.Label();
+            this.house13auc = new System.Windows.Forms.Label();
+            this.house13type = new System.Windows.Forms.Label();
+            this.house14 = new System.Windows.Forms.Panel();
+            this.house14pic = new System.Windows.Forms.PictureBox();
+            this.house14bin = new System.Windows.Forms.Label();
+            this.house14auc = new System.Windows.Forms.Label();
+            this.house14type = new System.Windows.Forms.Label();
+            this.house15 = new System.Windows.Forms.Panel();
+            this.house15pic = new System.Windows.Forms.PictureBox();
+            this.house15bin = new System.Windows.Forms.Label();
+            this.house15auc = new System.Windows.Forms.Label();
+            this.house15type = new System.Windows.Forms.Label();
+            this.house16 = new System.Windows.Forms.Panel();
+            this.house16pic = new System.Windows.Forms.PictureBox();
+            this.house16bin = new System.Windows.Forms.Label();
+            this.house16auc = new System.Windows.Forms.Label();
+            this.house16type = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.house1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house1pic)).BeginInit();
+            this.house2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house2pic)).BeginInit();
+            this.house3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house3pic)).BeginInit();
+            this.house4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house4pic)).BeginInit();
+            this.house5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house5pic)).BeginInit();
+            this.house6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house6pic)).BeginInit();
+            this.house7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house7pic)).BeginInit();
+            this.house8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house8pic)).BeginInit();
+            this.house9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house9pic)).BeginInit();
+            this.house10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house10pic)).BeginInit();
+            this.house11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house11pic)).BeginInit();
+            this.house12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house12pic)).BeginInit();
+            this.house13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house13pic)).BeginInit();
+            this.house14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house14pic)).BeginInit();
+            this.house15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house15pic)).BeginInit();
+            this.house16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house16pic)).BeginInit();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.panel16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.panel20.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.panel22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -1336,6 +1342,7 @@ namespace InvestingIncubator
             this.button57.TabIndex = 41;
             this.button57.Text = "Refresh";
             this.button57.UseVisualStyleBackColor = false;
+            this.button57.Click += new System.EventHandler(this.button57_Click);
             // 
             // panel6
             // 
@@ -1348,837 +1355,901 @@ namespace InvestingIncubator
             this.panel6.Size = new System.Drawing.Size(1443, 80);
             this.panel6.TabIndex = 42;
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel7.Controls.Add(this.pictureBox1);
-            this.panel7.Controls.Add(this.label32);
-            this.panel7.Controls.Add(this.label28);
-            this.panel7.Controls.Add(this.label27);
-            this.panel7.Location = new System.Drawing.Point(21, 99);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(150, 149);
-            this.panel7.TabIndex = 43;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(14, 58);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(120, 19);
-            this.label32.TabIndex = 2;
-            this.label32.Text = "Buy now: 200,000";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(19, 33);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(115, 19);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Auction: 200,000";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(43, 7);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(60, 21);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "Classic";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel8.Controls.Add(this.pictureBox2);
-            this.panel8.Controls.Add(this.label33);
-            this.panel8.Controls.Add(this.label34);
-            this.panel8.Controls.Add(this.label35);
-            this.panel8.Location = new System.Drawing.Point(239, 99);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(150, 149);
-            this.panel8.TabIndex = 44;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(14, 58);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(120, 19);
-            this.label33.TabIndex = 2;
-            this.label33.Text = "Buy now: 200,000";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(19, 33);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(115, 19);
-            this.label34.TabIndex = 1;
-            this.label34.Text = "Auction: 200,000";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(40, 7);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(71, 21);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "Modern";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel9.Controls.Add(this.pictureBox3);
-            this.panel9.Controls.Add(this.label36);
-            this.panel9.Controls.Add(this.label37);
-            this.panel9.Controls.Add(this.label38);
-            this.panel9.Location = new System.Drawing.Point(457, 99);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(150, 149);
-            this.panel9.TabIndex = 45;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(14, 58);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(120, 19);
-            this.label36.TabIndex = 2;
-            this.label36.Text = "Buy now: 200,000";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(19, 33);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(115, 19);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "Auction: 200,000";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(40, 7);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(71, 21);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "Modern";
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel10.Controls.Add(this.pictureBox4);
-            this.panel10.Controls.Add(this.label39);
-            this.panel10.Controls.Add(this.label40);
-            this.panel10.Controls.Add(this.label41);
-            this.panel10.Location = new System.Drawing.Point(675, 99);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(150, 149);
-            this.panel10.TabIndex = 46;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(14, 58);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(120, 19);
-            this.label39.TabIndex = 2;
-            this.label39.Text = "Buy now: 200,000";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(19, 33);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(115, 19);
-            this.label40.TabIndex = 1;
-            this.label40.Text = "Auction: 200,000";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(40, 7);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(71, 21);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "Modern";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel11.Controls.Add(this.pictureBox5);
-            this.panel11.Controls.Add(this.label42);
-            this.panel11.Controls.Add(this.label43);
-            this.panel11.Controls.Add(this.label44);
-            this.panel11.Location = new System.Drawing.Point(21, 291);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(150, 149);
-            this.panel11.TabIndex = 44;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(14, 58);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(120, 19);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Buy now: 200,000";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(19, 33);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(115, 19);
-            this.label43.TabIndex = 1;
-            this.label43.Text = "Auction: 200,000";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(43, 7);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(60, 21);
-            this.label44.TabIndex = 0;
-            this.label44.Text = "Classic";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel12.Controls.Add(this.pictureBox6);
-            this.panel12.Controls.Add(this.label45);
-            this.panel12.Controls.Add(this.label46);
-            this.panel12.Controls.Add(this.label47);
-            this.panel12.Location = new System.Drawing.Point(239, 291);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(150, 149);
-            this.panel12.TabIndex = 45;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(14, 58);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(120, 19);
-            this.label45.TabIndex = 2;
-            this.label45.Text = "Buy now: 200,000";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(19, 33);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(115, 19);
-            this.label46.TabIndex = 1;
-            this.label46.Text = "Auction: 200,000";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(43, 7);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(60, 21);
-            this.label47.TabIndex = 0;
-            this.label47.Text = "Classic";
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel13.Controls.Add(this.pictureBox7);
-            this.panel13.Controls.Add(this.label48);
-            this.panel13.Controls.Add(this.label49);
-            this.panel13.Controls.Add(this.label50);
-            this.panel13.Location = new System.Drawing.Point(457, 291);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(150, 149);
-            this.panel13.TabIndex = 45;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(14, 58);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(120, 19);
-            this.label48.TabIndex = 2;
-            this.label48.Text = "Buy now: 200,000";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(19, 33);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(115, 19);
-            this.label49.TabIndex = 1;
-            this.label49.Text = "Auction: 200,000";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(40, 7);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(71, 21);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "Modern";
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel14.Controls.Add(this.pictureBox8);
-            this.panel14.Controls.Add(this.label51);
-            this.panel14.Controls.Add(this.label52);
-            this.panel14.Controls.Add(this.label53);
-            this.panel14.Location = new System.Drawing.Point(675, 291);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(150, 149);
-            this.panel14.TabIndex = 46;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(14, 58);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(120, 19);
-            this.label51.TabIndex = 2;
-            this.label51.Text = "Buy now: 200,000";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(19, 33);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(115, 19);
-            this.label52.TabIndex = 1;
-            this.label52.Text = "Auction: 200,000";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(43, 7);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(60, 21);
-            this.label53.TabIndex = 0;
-            this.label53.Text = "Classic";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel15.Controls.Add(this.pictureBox9);
-            this.panel15.Controls.Add(this.label54);
-            this.panel15.Controls.Add(this.label55);
-            this.panel15.Controls.Add(this.label56);
-            this.panel15.Location = new System.Drawing.Point(21, 484);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(150, 149);
-            this.panel15.TabIndex = 46;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(14, 58);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(120, 19);
-            this.label54.TabIndex = 2;
-            this.label54.Text = "Buy now: 200,000";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(19, 33);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(115, 19);
-            this.label55.TabIndex = 1;
-            this.label55.Text = "Auction: 200,000";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(40, 7);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(71, 21);
-            this.label56.TabIndex = 0;
-            this.label56.Text = "Modern";
-            // 
-            // panel16
-            // 
-            this.panel16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel16.Controls.Add(this.pictureBox10);
-            this.panel16.Controls.Add(this.label57);
-            this.panel16.Controls.Add(this.label58);
-            this.panel16.Controls.Add(this.label59);
-            this.panel16.Location = new System.Drawing.Point(239, 484);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(150, 149);
-            this.panel16.TabIndex = 46;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 3;
-            this.pictureBox10.TabStop = false;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(14, 58);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(120, 19);
-            this.label57.TabIndex = 2;
-            this.label57.Text = "Buy now: 200,000";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(19, 33);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(115, 19);
-            this.label58.TabIndex = 1;
-            this.label58.Text = "Auction: 200,000";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(43, 7);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(60, 21);
-            this.label59.TabIndex = 0;
-            this.label59.Text = "Classic";
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel17.Controls.Add(this.pictureBox11);
-            this.panel17.Controls.Add(this.label60);
-            this.panel17.Controls.Add(this.label61);
-            this.panel17.Controls.Add(this.label62);
-            this.panel17.Location = new System.Drawing.Point(457, 484);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(150, 149);
-            this.panel17.TabIndex = 46;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 3;
-            this.pictureBox11.TabStop = false;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(14, 58);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(120, 19);
-            this.label60.TabIndex = 2;
-            this.label60.Text = "Buy now: 200,000";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(19, 33);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(115, 19);
-            this.label61.TabIndex = 1;
-            this.label61.Text = "Auction: 200,000";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(40, 7);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(71, 21);
-            this.label62.TabIndex = 0;
-            this.label62.Text = "Modern";
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel18.Controls.Add(this.pictureBox12);
-            this.panel18.Controls.Add(this.label63);
-            this.panel18.Controls.Add(this.label64);
-            this.panel18.Controls.Add(this.label65);
-            this.panel18.Location = new System.Drawing.Point(675, 484);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(150, 149);
-            this.panel18.TabIndex = 47;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 3;
-            this.pictureBox12.TabStop = false;
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(14, 58);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(120, 19);
-            this.label63.TabIndex = 2;
-            this.label63.Text = "Buy now: 200,000";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(19, 33);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(115, 19);
-            this.label64.TabIndex = 1;
-            this.label64.Text = "Auction: 200,000";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(40, 7);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(71, 21);
-            this.label65.TabIndex = 0;
-            this.label65.Text = "Modern";
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel19.Controls.Add(this.pictureBox13);
-            this.panel19.Controls.Add(this.label66);
-            this.panel19.Controls.Add(this.label67);
-            this.panel19.Controls.Add(this.label68);
-            this.panel19.Location = new System.Drawing.Point(21, 676);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(150, 149);
-            this.panel19.TabIndex = 48;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 3;
-            this.pictureBox13.TabStop = false;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(14, 58);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(120, 19);
-            this.label66.TabIndex = 2;
-            this.label66.Text = "Buy now: 200,000";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(19, 33);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(115, 19);
-            this.label67.TabIndex = 1;
-            this.label67.Text = "Auction: 200,000";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(40, 7);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(71, 21);
-            this.label68.TabIndex = 0;
-            this.label68.Text = "Modern";
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel20.Controls.Add(this.pictureBox14);
-            this.panel20.Controls.Add(this.label69);
-            this.panel20.Controls.Add(this.label70);
-            this.panel20.Controls.Add(this.label71);
-            this.panel20.Location = new System.Drawing.Point(239, 676);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(150, 149);
-            this.panel20.TabIndex = 47;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 3;
-            this.pictureBox14.TabStop = false;
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(14, 58);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(120, 19);
-            this.label69.TabIndex = 2;
-            this.label69.Text = "Buy now: 200,000";
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(19, 33);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(115, 19);
-            this.label70.TabIndex = 1;
-            this.label70.Text = "Auction: 200,000";
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(43, 7);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(60, 21);
-            this.label71.TabIndex = 0;
-            this.label71.Text = "Classic";
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel21.Controls.Add(this.pictureBox15);
-            this.panel21.Controls.Add(this.label72);
-            this.panel21.Controls.Add(this.label73);
-            this.panel21.Controls.Add(this.label74);
-            this.panel21.Location = new System.Drawing.Point(457, 676);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(150, 149);
-            this.panel21.TabIndex = 48;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(36, 80);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 3;
-            this.pictureBox15.TabStop = false;
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(14, 58);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(120, 19);
-            this.label72.TabIndex = 2;
-            this.label72.Text = "Buy now: 200,000";
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(19, 33);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(115, 19);
-            this.label73.TabIndex = 1;
-            this.label73.Text = "Auction: 200,000";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(43, 7);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(60, 21);
-            this.label74.TabIndex = 0;
-            this.label74.Text = "Classic";
-            // 
-            // panel22
-            // 
-            this.panel22.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel22.Controls.Add(this.pictureBox16);
-            this.panel22.Controls.Add(this.label75);
-            this.panel22.Controls.Add(this.label76);
-            this.panel22.Controls.Add(this.label77);
-            this.panel22.Location = new System.Drawing.Point(675, 676);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(150, 149);
-            this.panel22.TabIndex = 48;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(32, 80);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(80, 66);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 3;
-            this.pictureBox16.TabStop = false;
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(14, 58);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(120, 19);
-            this.label75.TabIndex = 2;
-            this.label75.Text = "Buy now: 200,000";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(19, 33);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(115, 19);
-            this.label76.TabIndex = 1;
-            this.label76.Text = "Auction: 200,000";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(40, 7);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(71, 21);
-            this.label77.TabIndex = 0;
-            this.label77.Text = "Modern";
+            // house1
+            // 
+            this.house1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house1.Controls.Add(this.house1pic);
+            this.house1.Controls.Add(this.house1bin);
+            this.house1.Controls.Add(this.house1auc);
+            this.house1.Controls.Add(this.house1type);
+            this.house1.Location = new System.Drawing.Point(39, 99);
+            this.house1.Name = "house1";
+            this.house1.Size = new System.Drawing.Size(150, 149);
+            this.house1.TabIndex = 43;
+            // 
+            // house1pic
+            // 
+            this.house1pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house1pic.Image = ((System.Drawing.Image)(resources.GetObject("house1pic.Image")));
+            this.house1pic.Location = new System.Drawing.Point(33, 80);
+            this.house1pic.Name = "house1pic";
+            this.house1pic.Size = new System.Drawing.Size(81, 66);
+            this.house1pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house1pic.TabIndex = 3;
+            this.house1pic.TabStop = false;
+            // 
+            // house1bin
+            // 
+            this.house1bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house1bin.AutoSize = true;
+            this.house1bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house1bin.Location = new System.Drawing.Point(13, 58);
+            this.house1bin.Name = "house1bin";
+            this.house1bin.Size = new System.Drawing.Size(120, 19);
+            this.house1bin.TabIndex = 2;
+            this.house1bin.Text = "Buy now: 200,000";
+            // 
+            // house1auc
+            // 
+            this.house1auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house1auc.AutoSize = true;
+            this.house1auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house1auc.Location = new System.Drawing.Point(16, 33);
+            this.house1auc.Name = "house1auc";
+            this.house1auc.Size = new System.Drawing.Size(115, 19);
+            this.house1auc.TabIndex = 1;
+            this.house1auc.Text = "Auction: 200,000";
+            // 
+            // house1type
+            // 
+            this.house1type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house1type.AutoSize = true;
+            this.house1type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house1type.Location = new System.Drawing.Point(43, 7);
+            this.house1type.Name = "house1type";
+            this.house1type.Size = new System.Drawing.Size(60, 21);
+            this.house1type.TabIndex = 0;
+            this.house1type.Text = "Classic";
+            // 
+            // house2
+            // 
+            this.house2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house2.Controls.Add(this.house2pic);
+            this.house2.Controls.Add(this.house2bin);
+            this.house2.Controls.Add(this.house2auc);
+            this.house2.Controls.Add(this.house2type);
+            this.house2.Location = new System.Drawing.Point(251, 99);
+            this.house2.Name = "house2";
+            this.house2.Size = new System.Drawing.Size(150, 149);
+            this.house2.TabIndex = 44;
+            // 
+            // house2pic
+            // 
+            this.house2pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house2pic.Image = ((System.Drawing.Image)(resources.GetObject("house2pic.Image")));
+            this.house2pic.Location = new System.Drawing.Point(32, 80);
+            this.house2pic.Name = "house2pic";
+            this.house2pic.Size = new System.Drawing.Size(80, 66);
+            this.house2pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house2pic.TabIndex = 3;
+            this.house2pic.TabStop = false;
+            // 
+            // house2bin
+            // 
+            this.house2bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house2bin.AutoSize = true;
+            this.house2bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house2bin.Location = new System.Drawing.Point(12, 58);
+            this.house2bin.Name = "house2bin";
+            this.house2bin.Size = new System.Drawing.Size(120, 19);
+            this.house2bin.TabIndex = 2;
+            this.house2bin.Text = "Buy now: 200,000";
+            // 
+            // house2auc
+            // 
+            this.house2auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house2auc.AutoSize = true;
+            this.house2auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house2auc.Location = new System.Drawing.Point(15, 33);
+            this.house2auc.Name = "house2auc";
+            this.house2auc.Size = new System.Drawing.Size(115, 19);
+            this.house2auc.TabIndex = 1;
+            this.house2auc.Text = "Auction: 200,000";
+            // 
+            // house2type
+            // 
+            this.house2type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house2type.AutoSize = true;
+            this.house2type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house2type.Location = new System.Drawing.Point(37, 7);
+            this.house2type.Name = "house2type";
+            this.house2type.Size = new System.Drawing.Size(71, 21);
+            this.house2type.TabIndex = 0;
+            this.house2type.Text = "Modern";
+            // 
+            // house3
+            // 
+            this.house3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house3.Controls.Add(this.house3pic);
+            this.house3.Controls.Add(this.house3bin);
+            this.house3.Controls.Add(this.house3auc);
+            this.house3.Controls.Add(this.house3type);
+            this.house3.Location = new System.Drawing.Point(463, 99);
+            this.house3.Name = "house3";
+            this.house3.Size = new System.Drawing.Size(150, 149);
+            this.house3.TabIndex = 45;
+            // 
+            // house3pic
+            // 
+            this.house3pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house3pic.Image = ((System.Drawing.Image)(resources.GetObject("house3pic.Image")));
+            this.house3pic.Location = new System.Drawing.Point(36, 80);
+            this.house3pic.Name = "house3pic";
+            this.house3pic.Size = new System.Drawing.Size(80, 66);
+            this.house3pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house3pic.TabIndex = 3;
+            this.house3pic.TabStop = false;
+            // 
+            // house3bin
+            // 
+            this.house3bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house3bin.AutoSize = true;
+            this.house3bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house3bin.Location = new System.Drawing.Point(16, 58);
+            this.house3bin.Name = "house3bin";
+            this.house3bin.Size = new System.Drawing.Size(120, 19);
+            this.house3bin.TabIndex = 2;
+            this.house3bin.Text = "Buy now: 200,000";
+            // 
+            // house3auc
+            // 
+            this.house3auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house3auc.AutoSize = true;
+            this.house3auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house3auc.Location = new System.Drawing.Point(19, 33);
+            this.house3auc.Name = "house3auc";
+            this.house3auc.Size = new System.Drawing.Size(115, 19);
+            this.house3auc.TabIndex = 1;
+            this.house3auc.Text = "Auction: 200,000";
+            // 
+            // house3type
+            // 
+            this.house3type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house3type.AutoSize = true;
+            this.house3type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house3type.Location = new System.Drawing.Point(41, 7);
+            this.house3type.Name = "house3type";
+            this.house3type.Size = new System.Drawing.Size(71, 21);
+            this.house3type.TabIndex = 0;
+            this.house3type.Text = "Modern";
+            // 
+            // house4
+            // 
+            this.house4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house4.Controls.Add(this.house4pic);
+            this.house4.Controls.Add(this.house4bin);
+            this.house4.Controls.Add(this.house4auc);
+            this.house4.Controls.Add(this.house4type);
+            this.house4.Location = new System.Drawing.Point(675, 99);
+            this.house4.Name = "house4";
+            this.house4.Size = new System.Drawing.Size(150, 149);
+            this.house4.TabIndex = 46;
+            // 
+            // house4pic
+            // 
+            this.house4pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house4pic.Image = ((System.Drawing.Image)(resources.GetObject("house4pic.Image")));
+            this.house4pic.Location = new System.Drawing.Point(32, 80);
+            this.house4pic.Name = "house4pic";
+            this.house4pic.Size = new System.Drawing.Size(80, 66);
+            this.house4pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house4pic.TabIndex = 3;
+            this.house4pic.TabStop = false;
+            // 
+            // house4bin
+            // 
+            this.house4bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house4bin.AutoSize = true;
+            this.house4bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house4bin.Location = new System.Drawing.Point(12, 58);
+            this.house4bin.Name = "house4bin";
+            this.house4bin.Size = new System.Drawing.Size(120, 19);
+            this.house4bin.TabIndex = 2;
+            this.house4bin.Text = "Buy now: 200,000";
+            // 
+            // house4auc
+            // 
+            this.house4auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house4auc.AutoSize = true;
+            this.house4auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house4auc.Location = new System.Drawing.Point(15, 33);
+            this.house4auc.Name = "house4auc";
+            this.house4auc.Size = new System.Drawing.Size(115, 19);
+            this.house4auc.TabIndex = 1;
+            this.house4auc.Text = "Auction: 200,000";
+            // 
+            // house4type
+            // 
+            this.house4type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house4type.AutoSize = true;
+            this.house4type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house4type.Location = new System.Drawing.Point(37, 7);
+            this.house4type.Name = "house4type";
+            this.house4type.Size = new System.Drawing.Size(71, 21);
+            this.house4type.TabIndex = 0;
+            this.house4type.Text = "Modern";
+            // 
+            // house5
+            // 
+            this.house5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house5.Controls.Add(this.house5pic);
+            this.house5.Controls.Add(this.house5bin);
+            this.house5.Controls.Add(this.house5auc);
+            this.house5.Controls.Add(this.house5type);
+            this.house5.Location = new System.Drawing.Point(39, 291);
+            this.house5.Name = "house5";
+            this.house5.Size = new System.Drawing.Size(150, 149);
+            this.house5.TabIndex = 44;
+            // 
+            // house5pic
+            // 
+            this.house5pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house5pic.Image = ((System.Drawing.Image)(resources.GetObject("house5pic.Image")));
+            this.house5pic.Location = new System.Drawing.Point(33, 80);
+            this.house5pic.Name = "house5pic";
+            this.house5pic.Size = new System.Drawing.Size(81, 66);
+            this.house5pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house5pic.TabIndex = 3;
+            this.house5pic.TabStop = false;
+            // 
+            // house5bin
+            // 
+            this.house5bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house5bin.AutoSize = true;
+            this.house5bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house5bin.Location = new System.Drawing.Point(13, 58);
+            this.house5bin.Name = "house5bin";
+            this.house5bin.Size = new System.Drawing.Size(120, 19);
+            this.house5bin.TabIndex = 2;
+            this.house5bin.Text = "Buy now: 200,000";
+            // 
+            // house5auc
+            // 
+            this.house5auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house5auc.AutoSize = true;
+            this.house5auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house5auc.Location = new System.Drawing.Point(16, 33);
+            this.house5auc.Name = "house5auc";
+            this.house5auc.Size = new System.Drawing.Size(115, 19);
+            this.house5auc.TabIndex = 1;
+            this.house5auc.Text = "Auction: 200,000";
+            // 
+            // house5type
+            // 
+            this.house5type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house5type.AutoSize = true;
+            this.house5type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house5type.Location = new System.Drawing.Point(43, 7);
+            this.house5type.Name = "house5type";
+            this.house5type.Size = new System.Drawing.Size(60, 21);
+            this.house5type.TabIndex = 0;
+            this.house5type.Text = "Classic";
+            // 
+            // house6
+            // 
+            this.house6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house6.Controls.Add(this.house6pic);
+            this.house6.Controls.Add(this.house6bin);
+            this.house6.Controls.Add(this.house6auc);
+            this.house6.Controls.Add(this.house6type);
+            this.house6.Location = new System.Drawing.Point(251, 291);
+            this.house6.Name = "house6";
+            this.house6.Size = new System.Drawing.Size(150, 149);
+            this.house6.TabIndex = 45;
+            // 
+            // house6pic
+            // 
+            this.house6pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house6pic.Image = ((System.Drawing.Image)(resources.GetObject("house6pic.Image")));
+            this.house6pic.Location = new System.Drawing.Point(32, 80);
+            this.house6pic.Name = "house6pic";
+            this.house6pic.Size = new System.Drawing.Size(80, 66);
+            this.house6pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house6pic.TabIndex = 3;
+            this.house6pic.TabStop = false;
+            // 
+            // house6bin
+            // 
+            this.house6bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house6bin.AutoSize = true;
+            this.house6bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house6bin.Location = new System.Drawing.Point(12, 58);
+            this.house6bin.Name = "house6bin";
+            this.house6bin.Size = new System.Drawing.Size(120, 19);
+            this.house6bin.TabIndex = 2;
+            this.house6bin.Text = "Buy now: 200,000";
+            // 
+            // house6auc
+            // 
+            this.house6auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house6auc.AutoSize = true;
+            this.house6auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house6auc.Location = new System.Drawing.Point(15, 33);
+            this.house6auc.Name = "house6auc";
+            this.house6auc.Size = new System.Drawing.Size(115, 19);
+            this.house6auc.TabIndex = 1;
+            this.house6auc.Text = "Auction: 200,000";
+            // 
+            // house6type
+            // 
+            this.house6type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house6type.AutoSize = true;
+            this.house6type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house6type.Location = new System.Drawing.Point(42, 7);
+            this.house6type.Name = "house6type";
+            this.house6type.Size = new System.Drawing.Size(60, 21);
+            this.house6type.TabIndex = 0;
+            this.house6type.Text = "Classic";
+            // 
+            // house7
+            // 
+            this.house7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house7.Controls.Add(this.house7pic);
+            this.house7.Controls.Add(this.house7bin);
+            this.house7.Controls.Add(this.house7auc);
+            this.house7.Controls.Add(this.house7type);
+            this.house7.Location = new System.Drawing.Point(463, 291);
+            this.house7.Name = "house7";
+            this.house7.Size = new System.Drawing.Size(150, 149);
+            this.house7.TabIndex = 45;
+            // 
+            // house7pic
+            // 
+            this.house7pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house7pic.Image = ((System.Drawing.Image)(resources.GetObject("house7pic.Image")));
+            this.house7pic.Location = new System.Drawing.Point(36, 83);
+            this.house7pic.Name = "house7pic";
+            this.house7pic.Size = new System.Drawing.Size(80, 66);
+            this.house7pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house7pic.TabIndex = 3;
+            this.house7pic.TabStop = false;
+            // 
+            // house7bin
+            // 
+            this.house7bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house7bin.AutoSize = true;
+            this.house7bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house7bin.Location = new System.Drawing.Point(16, 58);
+            this.house7bin.Name = "house7bin";
+            this.house7bin.Size = new System.Drawing.Size(120, 19);
+            this.house7bin.TabIndex = 2;
+            this.house7bin.Text = "Buy now: 200,000";
+            // 
+            // house7auc
+            // 
+            this.house7auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house7auc.AutoSize = true;
+            this.house7auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house7auc.Location = new System.Drawing.Point(19, 33);
+            this.house7auc.Name = "house7auc";
+            this.house7auc.Size = new System.Drawing.Size(115, 19);
+            this.house7auc.TabIndex = 1;
+            this.house7auc.Text = "Auction: 200,000";
+            // 
+            // house7type
+            // 
+            this.house7type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house7type.AutoSize = true;
+            this.house7type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house7type.Location = new System.Drawing.Point(41, 7);
+            this.house7type.Name = "house7type";
+            this.house7type.Size = new System.Drawing.Size(71, 21);
+            this.house7type.TabIndex = 0;
+            this.house7type.Text = "Modern";
+            // 
+            // house8
+            // 
+            this.house8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house8.Controls.Add(this.house8pic);
+            this.house8.Controls.Add(this.house8bin);
+            this.house8.Controls.Add(this.house8auc);
+            this.house8.Controls.Add(this.house8type);
+            this.house8.Location = new System.Drawing.Point(675, 291);
+            this.house8.Name = "house8";
+            this.house8.Size = new System.Drawing.Size(150, 149);
+            this.house8.TabIndex = 46;
+            // 
+            // house8pic
+            // 
+            this.house8pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house8pic.Image = ((System.Drawing.Image)(resources.GetObject("house8pic.Image")));
+            this.house8pic.Location = new System.Drawing.Point(32, 80);
+            this.house8pic.Name = "house8pic";
+            this.house8pic.Size = new System.Drawing.Size(80, 66);
+            this.house8pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house8pic.TabIndex = 3;
+            this.house8pic.TabStop = false;
+            // 
+            // house8bin
+            // 
+            this.house8bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house8bin.AutoSize = true;
+            this.house8bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house8bin.Location = new System.Drawing.Point(12, 58);
+            this.house8bin.Name = "house8bin";
+            this.house8bin.Size = new System.Drawing.Size(120, 19);
+            this.house8bin.TabIndex = 2;
+            this.house8bin.Text = "Buy now: 200,000";
+            // 
+            // house8auc
+            // 
+            this.house8auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house8auc.AutoSize = true;
+            this.house8auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house8auc.Location = new System.Drawing.Point(15, 33);
+            this.house8auc.Name = "house8auc";
+            this.house8auc.Size = new System.Drawing.Size(115, 19);
+            this.house8auc.TabIndex = 1;
+            this.house8auc.Text = "Auction: 200,000";
+            // 
+            // house8type
+            // 
+            this.house8type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house8type.AutoSize = true;
+            this.house8type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house8type.Location = new System.Drawing.Point(42, 7);
+            this.house8type.Name = "house8type";
+            this.house8type.Size = new System.Drawing.Size(60, 21);
+            this.house8type.TabIndex = 0;
+            this.house8type.Text = "Classic";
+            // 
+            // house9
+            // 
+            this.house9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house9.Controls.Add(this.house9pic);
+            this.house9.Controls.Add(this.house9bin);
+            this.house9.Controls.Add(this.house9auc);
+            this.house9.Controls.Add(this.house9type);
+            this.house9.Location = new System.Drawing.Point(39, 483);
+            this.house9.Name = "house9";
+            this.house9.Size = new System.Drawing.Size(150, 149);
+            this.house9.TabIndex = 46;
+            // 
+            // house9pic
+            // 
+            this.house9pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house9pic.Image = ((System.Drawing.Image)(resources.GetObject("house9pic.Image")));
+            this.house9pic.Location = new System.Drawing.Point(33, 80);
+            this.house9pic.Name = "house9pic";
+            this.house9pic.Size = new System.Drawing.Size(80, 66);
+            this.house9pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house9pic.TabIndex = 3;
+            this.house9pic.TabStop = false;
+            // 
+            // house9bin
+            // 
+            this.house9bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house9bin.AutoSize = true;
+            this.house9bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house9bin.Location = new System.Drawing.Point(13, 58);
+            this.house9bin.Name = "house9bin";
+            this.house9bin.Size = new System.Drawing.Size(120, 19);
+            this.house9bin.TabIndex = 2;
+            this.house9bin.Text = "Buy now: 200,000";
+            // 
+            // house9auc
+            // 
+            this.house9auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house9auc.AutoSize = true;
+            this.house9auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house9auc.Location = new System.Drawing.Point(16, 33);
+            this.house9auc.Name = "house9auc";
+            this.house9auc.Size = new System.Drawing.Size(115, 19);
+            this.house9auc.TabIndex = 1;
+            this.house9auc.Text = "Auction: 200,000";
+            // 
+            // house9type
+            // 
+            this.house9type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house9type.AutoSize = true;
+            this.house9type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house9type.Location = new System.Drawing.Point(38, 7);
+            this.house9type.Name = "house9type";
+            this.house9type.Size = new System.Drawing.Size(71, 21);
+            this.house9type.TabIndex = 0;
+            this.house9type.Text = "Modern";
+            // 
+            // house10
+            // 
+            this.house10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house10.Controls.Add(this.house10pic);
+            this.house10.Controls.Add(this.house10bin);
+            this.house10.Controls.Add(this.house10auc);
+            this.house10.Controls.Add(this.house10type);
+            this.house10.Location = new System.Drawing.Point(251, 483);
+            this.house10.Name = "house10";
+            this.house10.Size = new System.Drawing.Size(150, 149);
+            this.house10.TabIndex = 46;
+            // 
+            // house10pic
+            // 
+            this.house10pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house10pic.Image = ((System.Drawing.Image)(resources.GetObject("house10pic.Image")));
+            this.house10pic.Location = new System.Drawing.Point(32, 80);
+            this.house10pic.Name = "house10pic";
+            this.house10pic.Size = new System.Drawing.Size(80, 66);
+            this.house10pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house10pic.TabIndex = 3;
+            this.house10pic.TabStop = false;
+            // 
+            // house10bin
+            // 
+            this.house10bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house10bin.AutoSize = true;
+            this.house10bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house10bin.Location = new System.Drawing.Point(12, 58);
+            this.house10bin.Name = "house10bin";
+            this.house10bin.Size = new System.Drawing.Size(120, 19);
+            this.house10bin.TabIndex = 2;
+            this.house10bin.Text = "Buy now: 200,000";
+            // 
+            // house10auc
+            // 
+            this.house10auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house10auc.AutoSize = true;
+            this.house10auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house10auc.Location = new System.Drawing.Point(15, 33);
+            this.house10auc.Name = "house10auc";
+            this.house10auc.Size = new System.Drawing.Size(115, 19);
+            this.house10auc.TabIndex = 1;
+            this.house10auc.Text = "Auction: 200,000";
+            // 
+            // house10type
+            // 
+            this.house10type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house10type.AutoSize = true;
+            this.house10type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house10type.Location = new System.Drawing.Point(42, 7);
+            this.house10type.Name = "house10type";
+            this.house10type.Size = new System.Drawing.Size(60, 21);
+            this.house10type.TabIndex = 0;
+            this.house10type.Text = "Classic";
+            // 
+            // house11
+            // 
+            this.house11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house11.Controls.Add(this.house11pic);
+            this.house11.Controls.Add(this.house11bin);
+            this.house11.Controls.Add(this.house11auc);
+            this.house11.Controls.Add(this.house11type);
+            this.house11.Location = new System.Drawing.Point(463, 483);
+            this.house11.Name = "house11";
+            this.house11.Size = new System.Drawing.Size(150, 149);
+            this.house11.TabIndex = 46;
+            // 
+            // house11pic
+            // 
+            this.house11pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house11pic.Image = ((System.Drawing.Image)(resources.GetObject("house11pic.Image")));
+            this.house11pic.Location = new System.Drawing.Point(36, 80);
+            this.house11pic.Name = "house11pic";
+            this.house11pic.Size = new System.Drawing.Size(80, 66);
+            this.house11pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house11pic.TabIndex = 3;
+            this.house11pic.TabStop = false;
+            // 
+            // house11bin
+            // 
+            this.house11bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house11bin.AutoSize = true;
+            this.house11bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house11bin.Location = new System.Drawing.Point(16, 58);
+            this.house11bin.Name = "house11bin";
+            this.house11bin.Size = new System.Drawing.Size(120, 19);
+            this.house11bin.TabIndex = 2;
+            this.house11bin.Text = "Buy now: 200,000";
+            // 
+            // house11auc
+            // 
+            this.house11auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house11auc.AutoSize = true;
+            this.house11auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house11auc.Location = new System.Drawing.Point(19, 33);
+            this.house11auc.Name = "house11auc";
+            this.house11auc.Size = new System.Drawing.Size(115, 19);
+            this.house11auc.TabIndex = 1;
+            this.house11auc.Text = "Auction: 200,000";
+            // 
+            // house11type
+            // 
+            this.house11type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house11type.AutoSize = true;
+            this.house11type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house11type.Location = new System.Drawing.Point(41, 7);
+            this.house11type.Name = "house11type";
+            this.house11type.Size = new System.Drawing.Size(71, 21);
+            this.house11type.TabIndex = 0;
+            this.house11type.Text = "Modern";
+            // 
+            // house12
+            // 
+            this.house12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house12.Controls.Add(this.house12pic);
+            this.house12.Controls.Add(this.house12bin);
+            this.house12.Controls.Add(this.house12auc);
+            this.house12.Controls.Add(this.house12type);
+            this.house12.Location = new System.Drawing.Point(675, 483);
+            this.house12.Name = "house12";
+            this.house12.Size = new System.Drawing.Size(150, 149);
+            this.house12.TabIndex = 47;
+            // 
+            // house12pic
+            // 
+            this.house12pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house12pic.Image = ((System.Drawing.Image)(resources.GetObject("house12pic.Image")));
+            this.house12pic.Location = new System.Drawing.Point(32, 80);
+            this.house12pic.Name = "house12pic";
+            this.house12pic.Size = new System.Drawing.Size(80, 66);
+            this.house12pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house12pic.TabIndex = 3;
+            this.house12pic.TabStop = false;
+            // 
+            // house12bin
+            // 
+            this.house12bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house12bin.AutoSize = true;
+            this.house12bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house12bin.Location = new System.Drawing.Point(12, 58);
+            this.house12bin.Name = "house12bin";
+            this.house12bin.Size = new System.Drawing.Size(120, 19);
+            this.house12bin.TabIndex = 2;
+            this.house12bin.Text = "Buy now: 200,000";
+            // 
+            // house12auc
+            // 
+            this.house12auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house12auc.AutoSize = true;
+            this.house12auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house12auc.Location = new System.Drawing.Point(15, 33);
+            this.house12auc.Name = "house12auc";
+            this.house12auc.Size = new System.Drawing.Size(115, 19);
+            this.house12auc.TabIndex = 1;
+            this.house12auc.Text = "Auction: 200,000";
+            // 
+            // house12type
+            // 
+            this.house12type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house12type.AutoSize = true;
+            this.house12type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house12type.Location = new System.Drawing.Point(37, 7);
+            this.house12type.Name = "house12type";
+            this.house12type.Size = new System.Drawing.Size(71, 21);
+            this.house12type.TabIndex = 0;
+            this.house12type.Text = "Modern";
+            // 
+            // house13
+            // 
+            this.house13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house13.Controls.Add(this.house13pic);
+            this.house13.Controls.Add(this.house13bin);
+            this.house13.Controls.Add(this.house13auc);
+            this.house13.Controls.Add(this.house13type);
+            this.house13.Location = new System.Drawing.Point(39, 675);
+            this.house13.Name = "house13";
+            this.house13.Size = new System.Drawing.Size(150, 149);
+            this.house13.TabIndex = 48;
+            // 
+            // house13pic
+            // 
+            this.house13pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house13pic.Image = ((System.Drawing.Image)(resources.GetObject("house13pic.Image")));
+            this.house13pic.Location = new System.Drawing.Point(33, 80);
+            this.house13pic.Name = "house13pic";
+            this.house13pic.Size = new System.Drawing.Size(80, 66);
+            this.house13pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house13pic.TabIndex = 3;
+            this.house13pic.TabStop = false;
+            // 
+            // house13bin
+            // 
+            this.house13bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house13bin.AutoSize = true;
+            this.house13bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house13bin.Location = new System.Drawing.Point(13, 58);
+            this.house13bin.Name = "house13bin";
+            this.house13bin.Size = new System.Drawing.Size(120, 19);
+            this.house13bin.TabIndex = 2;
+            this.house13bin.Text = "Buy now: 200,000";
+            // 
+            // house13auc
+            // 
+            this.house13auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house13auc.AutoSize = true;
+            this.house13auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house13auc.Location = new System.Drawing.Point(16, 33);
+            this.house13auc.Name = "house13auc";
+            this.house13auc.Size = new System.Drawing.Size(115, 19);
+            this.house13auc.TabIndex = 1;
+            this.house13auc.Text = "Auction: 200,000";
+            // 
+            // house13type
+            // 
+            this.house13type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house13type.AutoSize = true;
+            this.house13type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house13type.Location = new System.Drawing.Point(38, 7);
+            this.house13type.Name = "house13type";
+            this.house13type.Size = new System.Drawing.Size(71, 21);
+            this.house13type.TabIndex = 0;
+            this.house13type.Text = "Modern";
+            // 
+            // house14
+            // 
+            this.house14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house14.Controls.Add(this.house14pic);
+            this.house14.Controls.Add(this.house14bin);
+            this.house14.Controls.Add(this.house14auc);
+            this.house14.Controls.Add(this.house14type);
+            this.house14.Location = new System.Drawing.Point(251, 675);
+            this.house14.Name = "house14";
+            this.house14.Size = new System.Drawing.Size(150, 149);
+            this.house14.TabIndex = 47;
+            // 
+            // house14pic
+            // 
+            this.house14pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house14pic.Image = ((System.Drawing.Image)(resources.GetObject("house14pic.Image")));
+            this.house14pic.Location = new System.Drawing.Point(32, 80);
+            this.house14pic.Name = "house14pic";
+            this.house14pic.Size = new System.Drawing.Size(80, 66);
+            this.house14pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house14pic.TabIndex = 3;
+            this.house14pic.TabStop = false;
+            // 
+            // house14bin
+            // 
+            this.house14bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house14bin.AutoSize = true;
+            this.house14bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house14bin.Location = new System.Drawing.Point(12, 58);
+            this.house14bin.Name = "house14bin";
+            this.house14bin.Size = new System.Drawing.Size(120, 19);
+            this.house14bin.TabIndex = 2;
+            this.house14bin.Text = "Buy now: 200,000";
+            // 
+            // house14auc
+            // 
+            this.house14auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house14auc.AutoSize = true;
+            this.house14auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house14auc.Location = new System.Drawing.Point(15, 33);
+            this.house14auc.Name = "house14auc";
+            this.house14auc.Size = new System.Drawing.Size(115, 19);
+            this.house14auc.TabIndex = 1;
+            this.house14auc.Text = "Auction: 200,000";
+            // 
+            // house14type
+            // 
+            this.house14type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house14type.AutoSize = true;
+            this.house14type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house14type.Location = new System.Drawing.Point(42, 7);
+            this.house14type.Name = "house14type";
+            this.house14type.Size = new System.Drawing.Size(60, 21);
+            this.house14type.TabIndex = 0;
+            this.house14type.Text = "Classic";
+            // 
+            // house15
+            // 
+            this.house15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house15.Controls.Add(this.house15pic);
+            this.house15.Controls.Add(this.house15bin);
+            this.house15.Controls.Add(this.house15auc);
+            this.house15.Controls.Add(this.house15type);
+            this.house15.Location = new System.Drawing.Point(463, 675);
+            this.house15.Name = "house15";
+            this.house15.Size = new System.Drawing.Size(150, 149);
+            this.house15.TabIndex = 48;
+            // 
+            // house15pic
+            // 
+            this.house15pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house15pic.Image = ((System.Drawing.Image)(resources.GetObject("house15pic.Image")));
+            this.house15pic.Location = new System.Drawing.Point(36, 80);
+            this.house15pic.Name = "house15pic";
+            this.house15pic.Size = new System.Drawing.Size(80, 66);
+            this.house15pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house15pic.TabIndex = 3;
+            this.house15pic.TabStop = false;
+            // 
+            // house15bin
+            // 
+            this.house15bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house15bin.AutoSize = true;
+            this.house15bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house15bin.Location = new System.Drawing.Point(16, 58);
+            this.house15bin.Name = "house15bin";
+            this.house15bin.Size = new System.Drawing.Size(120, 19);
+            this.house15bin.TabIndex = 2;
+            this.house15bin.Text = "Buy now: 200,000";
+            // 
+            // house15auc
+            // 
+            this.house15auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house15auc.AutoSize = true;
+            this.house15auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house15auc.Location = new System.Drawing.Point(19, 33);
+            this.house15auc.Name = "house15auc";
+            this.house15auc.Size = new System.Drawing.Size(115, 19);
+            this.house15auc.TabIndex = 1;
+            this.house15auc.Text = "Auction: 200,000";
+            // 
+            // house15type
+            // 
+            this.house15type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house15type.AutoSize = true;
+            this.house15type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house15type.Location = new System.Drawing.Point(46, 7);
+            this.house15type.Name = "house15type";
+            this.house15type.Size = new System.Drawing.Size(60, 21);
+            this.house15type.TabIndex = 0;
+            this.house15type.Text = "Classic";
+            // 
+            // house16
+            // 
+            this.house16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.house16.Controls.Add(this.house16pic);
+            this.house16.Controls.Add(this.house16bin);
+            this.house16.Controls.Add(this.house16auc);
+            this.house16.Controls.Add(this.house16type);
+            this.house16.Location = new System.Drawing.Point(675, 675);
+            this.house16.Name = "house16";
+            this.house16.Size = new System.Drawing.Size(150, 149);
+            this.house16.TabIndex = 48;
+            // 
+            // house16pic
+            // 
+            this.house16pic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house16pic.Image = ((System.Drawing.Image)(resources.GetObject("house16pic.Image")));
+            this.house16pic.Location = new System.Drawing.Point(32, 80);
+            this.house16pic.Name = "house16pic";
+            this.house16pic.Size = new System.Drawing.Size(80, 66);
+            this.house16pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house16pic.TabIndex = 3;
+            this.house16pic.TabStop = false;
+            // 
+            // house16bin
+            // 
+            this.house16bin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house16bin.AutoSize = true;
+            this.house16bin.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house16bin.Location = new System.Drawing.Point(12, 58);
+            this.house16bin.Name = "house16bin";
+            this.house16bin.Size = new System.Drawing.Size(120, 19);
+            this.house16bin.TabIndex = 2;
+            this.house16bin.Text = "Buy now: 200,000";
+            // 
+            // house16auc
+            // 
+            this.house16auc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house16auc.AutoSize = true;
+            this.house16auc.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house16auc.Location = new System.Drawing.Point(15, 33);
+            this.house16auc.Name = "house16auc";
+            this.house16auc.Size = new System.Drawing.Size(115, 19);
+            this.house16auc.TabIndex = 1;
+            this.house16auc.Text = "Auction: 200,000";
+            // 
+            // house16type
+            // 
+            this.house16type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.house16type.AutoSize = true;
+            this.house16type.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.house16type.Location = new System.Drawing.Point(37, 7);
+            this.house16type.Name = "house16type";
+            this.house16type.Size = new System.Drawing.Size(71, 21);
+            this.house16type.TabIndex = 0;
+            this.house16type.Text = "Modern";
             // 
             // button1
             // 
@@ -2189,6 +2260,7 @@ namespace InvestingIncubator
             this.button1.TabIndex = 49;
             this.button1.Text = "Next page";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -2200,30 +2272,89 @@ namespace InvestingIncubator
             this.button2.Text = "Prev page";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Visible = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel7.Controls.Add(this.checkBox1);
+            this.panel7.Controls.Add(this.label27);
+            this.panel7.Controls.Add(this.comboBox1);
+            this.panel7.Controls.Add(this.label32);
+            this.panel7.Location = new System.Drawing.Point(1033, 622);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(265, 68);
+            this.panel7.TabIndex = 41;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(97, 7);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(75, 19);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "Order by";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AllowDrop = true;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Overall stars",
+            "Auction price",
+            "Buy now",
+            "Landsize",
+            "Area stars"});
+            this.comboBox1.Location = new System.Drawing.Point(9, 31);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(139, 32);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(0, 13);
+            this.label27.TabIndex = 2;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(145, 32);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(114, 24);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "Descending";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // PropertyMarket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1443, 862);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel22);
-            this.Controls.Add(this.panel21);
-            this.Controls.Add(this.panel20);
-            this.Controls.Add(this.panel19);
-            this.Controls.Add(this.panel18);
-            this.Controls.Add(this.panel17);
-            this.Controls.Add(this.panel16);
-            this.Controls.Add(this.panel15);
-            this.Controls.Add(this.panel14);
-            this.Controls.Add(this.panel13);
-            this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel11);
-            this.Controls.Add(this.panel10);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.house16);
+            this.Controls.Add(this.house15);
+            this.Controls.Add(this.house14);
+            this.Controls.Add(this.house13);
+            this.Controls.Add(this.house12);
+            this.Controls.Add(this.house11);
+            this.Controls.Add(this.house10);
+            this.Controls.Add(this.house9);
+            this.Controls.Add(this.house8);
+            this.Controls.Add(this.house7);
+            this.Controls.Add(this.house6);
+            this.Controls.Add(this.house5);
+            this.Controls.Add(this.house4);
+            this.Controls.Add(this.house3);
+            this.Controls.Add(this.house2);
+            this.Controls.Add(this.house1);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.button57);
             this.Controls.Add(this.panel5);
@@ -2246,54 +2377,56 @@ namespace InvestingIncubator
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.house1.ResumeLayout(false);
+            this.house1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house1pic)).EndInit();
+            this.house2.ResumeLayout(false);
+            this.house2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house2pic)).EndInit();
+            this.house3.ResumeLayout(false);
+            this.house3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house3pic)).EndInit();
+            this.house4.ResumeLayout(false);
+            this.house4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house4pic)).EndInit();
+            this.house5.ResumeLayout(false);
+            this.house5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house5pic)).EndInit();
+            this.house6.ResumeLayout(false);
+            this.house6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house6pic)).EndInit();
+            this.house7.ResumeLayout(false);
+            this.house7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house7pic)).EndInit();
+            this.house8.ResumeLayout(false);
+            this.house8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house8pic)).EndInit();
+            this.house9.ResumeLayout(false);
+            this.house9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house9pic)).EndInit();
+            this.house10.ResumeLayout(false);
+            this.house10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house10pic)).EndInit();
+            this.house11.ResumeLayout(false);
+            this.house11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house11pic)).EndInit();
+            this.house12.ResumeLayout(false);
+            this.house12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house12pic)).EndInit();
+            this.house13.ResumeLayout(false);
+            this.house13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house13pic)).EndInit();
+            this.house14.ResumeLayout(false);
+            this.house14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house14pic)).EndInit();
+            this.house15.ResumeLayout(false);
+            this.house15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house15pic)).EndInit();
+            this.house16.ResumeLayout(false);
+            this.house16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.house16pic)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2401,87 +2534,92 @@ namespace InvestingIncubator
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Button button57;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Label label76;
-        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Panel house1;
+        private System.Windows.Forms.PictureBox house1pic;
+        private System.Windows.Forms.Label house1bin;
+        private System.Windows.Forms.Label house1auc;
+        private System.Windows.Forms.Label house1type;
+        private System.Windows.Forms.Panel house2;
+        private System.Windows.Forms.PictureBox house2pic;
+        private System.Windows.Forms.Label house2bin;
+        private System.Windows.Forms.Label house2auc;
+        private System.Windows.Forms.Label house2type;
+        private System.Windows.Forms.Panel house3;
+        private System.Windows.Forms.PictureBox house3pic;
+        private System.Windows.Forms.Label house3bin;
+        private System.Windows.Forms.Label house3auc;
+        private System.Windows.Forms.Label house3type;
+        private System.Windows.Forms.Panel house4;
+        private System.Windows.Forms.PictureBox house4pic;
+        private System.Windows.Forms.Label house4bin;
+        private System.Windows.Forms.Label house4auc;
+        private System.Windows.Forms.Label house4type;
+        private System.Windows.Forms.Panel house5;
+        private System.Windows.Forms.PictureBox house5pic;
+        private System.Windows.Forms.Label house5bin;
+        private System.Windows.Forms.Label house5auc;
+        private System.Windows.Forms.Label house5type;
+        private System.Windows.Forms.Panel house6;
+        private System.Windows.Forms.PictureBox house6pic;
+        private System.Windows.Forms.Label house6bin;
+        private System.Windows.Forms.Label house6auc;
+        private System.Windows.Forms.Label house6type;
+        private System.Windows.Forms.Panel house7;
+        private System.Windows.Forms.PictureBox house7pic;
+        private System.Windows.Forms.Label house7bin;
+        private System.Windows.Forms.Label house7auc;
+        private System.Windows.Forms.Label house7type;
+        private System.Windows.Forms.Panel house8;
+        private System.Windows.Forms.PictureBox house8pic;
+        private System.Windows.Forms.Label house8bin;
+        private System.Windows.Forms.Label house8auc;
+        private System.Windows.Forms.Label house8type;
+        private System.Windows.Forms.Panel house9;
+        private System.Windows.Forms.PictureBox house9pic;
+        private System.Windows.Forms.Label house9bin;
+        private System.Windows.Forms.Label house9auc;
+        private System.Windows.Forms.Label house9type;
+        private System.Windows.Forms.Panel house10;
+        private System.Windows.Forms.PictureBox house10pic;
+        private System.Windows.Forms.Label house10bin;
+        private System.Windows.Forms.Label house10auc;
+        private System.Windows.Forms.Label house10type;
+        private System.Windows.Forms.Panel house11;
+        private System.Windows.Forms.PictureBox house11pic;
+        private System.Windows.Forms.Label house11bin;
+        private System.Windows.Forms.Label house11auc;
+        private System.Windows.Forms.Label house11type;
+        private System.Windows.Forms.Panel house12;
+        private System.Windows.Forms.PictureBox house12pic;
+        private System.Windows.Forms.Label house12bin;
+        private System.Windows.Forms.Label house12auc;
+        private System.Windows.Forms.Label house12type;
+        private System.Windows.Forms.Panel house13;
+        private System.Windows.Forms.PictureBox house13pic;
+        private System.Windows.Forms.Label house13bin;
+        private System.Windows.Forms.Label house13auc;
+        private System.Windows.Forms.Label house13type;
+        private System.Windows.Forms.Panel house14;
+        private System.Windows.Forms.PictureBox house14pic;
+        private System.Windows.Forms.Label house14bin;
+        private System.Windows.Forms.Label house14auc;
+        private System.Windows.Forms.Label house14type;
+        private System.Windows.Forms.Panel house15;
+        private System.Windows.Forms.PictureBox house15pic;
+        private System.Windows.Forms.Label house15bin;
+        private System.Windows.Forms.Label house15auc;
+        private System.Windows.Forms.Label house15type;
+        private System.Windows.Forms.Panel house16;
+        private System.Windows.Forms.PictureBox house16pic;
+        private System.Windows.Forms.Label house16bin;
+        private System.Windows.Forms.Label house16auc;
+        private System.Windows.Forms.Label house16type;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

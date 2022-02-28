@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InvestingIncubator.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace InvestingIncubator
 {
     public partial class PropertyMarket : Form
     {
+        public Dictionary<House, PriceRange> propertymarket;
         public PropertyMarket()
         {
             InitializeComponent();
+            propertymarket = House.GeneratePropertyMarket();
         }
         private void PropertyMarket_Paint(object sender, PaintEventArgs e)
         {
@@ -42,8 +45,8 @@ namespace InvestingIncubator
             CheckBoundries(ref minLounges, 0, 9, minLounges_Text);
             CheckBoundries(ref maxLounges, 0, 9, maxLounges_Text);
 
-            CheckBoundries(ref minAreaStars, 0, 9, minAreaStars_Text);
-            CheckBoundries(ref maxAreaStars, 0, 9, maxAreaStars_Text);
+            CheckBoundries(ref minAreaStars, 0, 5, minAreaStars_Text);
+            CheckBoundries(ref maxAreaStars, 0, 5, maxAreaStars_Text);
             return;
             Random rnd = new Random();
             House house = House.Random();
@@ -74,10 +77,10 @@ namespace InvestingIncubator
         }
 
         public int minOverallStars;
-        public int maxOverallStars;
+        public int maxOverallStars=5;
 
         public int minRoomStars;
-        public int maxRoomStars;
+        public int maxRoomStars=5;
         private void StarsIncrement(object sender, EventArgs e)
         {
             switch (((Control)sender).Name)
@@ -167,10 +170,10 @@ namespace InvestingIncubator
             return result;
         }
         int minAuction;
-        int maxAuction;
+        int maxAuction=10000000;
 
         int minBuyNow;
-        int maxBuyNow;
+        int maxBuyNow=10000000;
 
         private void PriceIncrement(object sender, EventArgs e)
         {
@@ -250,10 +253,10 @@ namespace InvestingIncubator
         }
 
         int minLand;
-        int maxLand;
+        int maxLand=1000;
 
         int minUnused;
-        int maxUnused;
+        int maxUnused=1000;
         private void SizeIncrement(object sender, EventArgs e)
         {
             switch (((Control)sender).Name)
@@ -332,16 +335,16 @@ namespace InvestingIncubator
         }
 
         int minBathrooms;
-        int maxBathrooms;
+        int maxBathrooms=9;
 
         int minBedrooms;
-        int maxBedrooms;
+        int maxBedrooms=9;
 
         int minDinings;
-        int maxDinings;
+        int maxDinings=9;
 
         int minLounges;
-        int maxLounges;
+        int maxLounges=9;
 
         private void RoomIncrement(object sender, EventArgs e)
         {
@@ -461,7 +464,7 @@ namespace InvestingIncubator
             }
         }
         public int minAreaStars;
-        public int maxAreaStars;
+        public int maxAreaStars=5;
         private void AreaIncrement(object sender, EventArgs e)
         {
             switch (((Control)sender).Name)
@@ -531,6 +534,161 @@ namespace InvestingIncubator
                 }
             }
             return result;
+        }
+        int index = 0;
+        private void button57_Click(object sender, EventArgs e)
+        {
+            index = 0;
+            UpdateMarket();
+            button1.Visible = true;
+        }
+
+        private void UpdateMarket()
+        {
+            List<KeyValuePair<House, PriceRange>> ordered = new List<KeyValuePair<House, PriceRange>>();
+            if (checkBox1.Checked)
+            {
+                switch (comboBox1.SelectedItem)
+                {
+                    case "Overall stars":
+                        ordered = propertymarket.OrderByDescending(h => h.Key.averageStars).ToList();
+                        break;
+                    case "Auction price":
+                        ordered = propertymarket.OrderByDescending(p => p.Value.auctionCurrent).ToList();
+                        break;
+                    case "Buy now":
+                        ordered = propertymarket.OrderByDescending(p => p.Value.buynow).ToList();
+                        break;
+                    case "Landsize":
+                        ordered = propertymarket.OrderByDescending(h => h.Key.landsize).ToList();
+                        break;
+                    case "Area stars":
+                        ordered = propertymarket.OrderByDescending(h => h.Key.areastars).ToList();
+                        break;
+                    default:
+                        ordered = propertymarket.ToList();
+                        break;
+                }
+            }
+            else
+            {
+                switch (comboBox1.SelectedItem)
+                {
+                    case "Overall stars":
+                        ordered = propertymarket.OrderBy(h => h.Key.averageStars).ToList();
+                        break;
+                    case "Auction price":
+                        ordered = propertymarket.OrderBy(p => p.Value.auctionCurrent).ToList();
+                        break;
+                    case "Buy now":
+                        ordered = propertymarket.OrderBy(p => p.Value.buynow).ToList();
+                        break;
+                    case "Landsize":
+                        ordered = propertymarket.OrderBy(h => h.Key.landsize).ToList();
+                        break;
+                    case "Area stars":
+                        ordered = propertymarket.OrderBy(h => h.Key.areastars).ToList();
+                        break;
+                    default:
+                        ordered = propertymarket.ToList();
+                        break;
+                }
+            }
+            var first16 = ordered.Where(h => FilterTrue(h.Key, h.Value)).Skip(index * 16).Take(16).ToList();
+            for (int i = 0; i < 16; ++i)
+            {
+                var panel = Controls.Find("house" + (i + 1), false).FirstOrDefault();
+                if (first16.Count() > i)
+                {
+                    panel.Visible = true;
+                    var housetype = (Label)panel.Controls.Find("house" + (i + 1) + "type", false).FirstOrDefault();
+                    housetype.Text = first16[i].Key.houseType.ToString();
+
+                    var houseauc = (Label)panel.Controls.Find("house" + (i + 1) + "auc", false).FirstOrDefault();
+                    houseauc.Text = "Auction: " + first16[i].Value.auctionCurrent.ToString("N0");
+
+                    var housebin = (Label)panel.Controls.Find("house" + (i + 1) + "bin", false).FirstOrDefault();
+                    housebin.Text = "Buy now: " + first16[i].Value.buynow.ToString("N0");
+
+                    var housepic = (PictureBox)panel.Controls.Find("house" + (i + 1) + "pic", false).FirstOrDefault();
+                    if (first16[i].Key.houseType == House.HouseType.Classic)
+                    {
+                        housepic.Image = Resources.Classic;
+                    }
+                    else
+                    {
+                        housepic.Image = Resources.Modern;
+                    }
+                }
+                else
+                {
+                    panel.Visible = false;
+                    button1.Visible = false;
+                }
+                //housepic.Image = Resources.
+            }
+        }
+
+        public bool FilterTrue(House h, PriceRange p)
+        {
+            if (minOverallStars<=h.averageStars && maxOverallStars>=h.averageStars)
+            {
+                if (minAuction<=p.auctionCurrent && maxAuction>=p.auctionCurrent)
+                {
+                    if (minBuyNow<=p.buynow && maxBuyNow>=p.buynow)
+                    {
+                        if (minLand<=h.landsize && maxLand>=h.landsize)
+                        {
+                            if (minUnused<=h.landsize-h.housesize && maxUnused >= h.landsize-h.housesize)
+                            {
+                                if (minAreaStars<= h.areastars && maxAreaStars >= h.areastars)
+                                {
+                                    var bathrooms = h.rooms.Count(r => r.roomType == Room.RoomType.Bathroom);
+                                    if (minBathrooms<=bathrooms && maxBathrooms>=bathrooms)
+                                    {
+                                        var bedrooms = h.rooms.Count(r => r.roomType == Room.RoomType.Bedroom);
+                                        if (minBedrooms <= bedrooms && maxBedrooms >= bedrooms)
+                                        {
+                                            var dinings = h.rooms.Count(r => r.roomType == Room.RoomType.Dining);
+                                            if (minDinings <= dinings && maxDinings >= dinings)
+                                            {
+                                                var lounges = h.rooms.Count(r => r.roomType == Room.RoomType.Lounge);
+                                                if (minLounges <= lounges && maxLounges >= lounges)
+                                                {
+                                                    return true;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            index++;
+            button2.Visible = true;
+            UpdateMarket();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            index--;
+            if (index <= 0)
+            {
+                button2.Visible = false;
+            }
+            else
+            {
+                button2.Visible = true;
+            }
+            button1.Visible = true;
+            UpdateMarket();
         }
     }
 }

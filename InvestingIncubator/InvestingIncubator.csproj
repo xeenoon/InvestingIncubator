@@ -327,6 +327,15 @@
   <ItemGroup>
     <None Include="Resources\Expand.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modern.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

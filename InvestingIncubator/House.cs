@@ -18,6 +18,9 @@ namespace InvestingIncubator
         public int areastars;
         public int landsize;
         public int housesize;
+        public HouseType houseType;
+        public int averageStars;
+
         public House(Rooms rooms)
         {
             this.rooms = rooms;
@@ -26,7 +29,7 @@ namespace InvestingIncubator
         {
             Dictionary<House, PriceRange> result = new Dictionary<House, PriceRange>();
             Random r = new Random();
-            int houses = r.Next(1000,10000);
+            int houses = r.Next(100,1000);
             for (int i = 0; i < houses; ++i)
             {
                 House h = Random();
@@ -55,7 +58,7 @@ namespace InvestingIncubator
             Rooms rooms = new Rooms();
 
             Random r = new Random();
-            int rating = r.Next(1,8);
+            int rating = r.Next(3,8);
             rooms.Add(new Room(r.Next(rating-2,rating+2), Room.RoomType.Kitchen));
             rooms.Add(new Room(r.Next(rating-2,rating+2), Room.RoomType.Bathroom));
             rooms.Add(new Room(r.Next(rating-2,rating+2), Room.RoomType.Bedroom));
@@ -195,9 +198,12 @@ namespace InvestingIncubator
             var result = new House(rooms);
             int bottom = rooms.OrderByDescending(rm => rm.area.Y).FirstOrDefault().area.Bottom;
             int right  = rooms.OrderByDescending(rm => rm.area.X).FirstOrDefault().area.Right;
-            result.landsize = right * bottom;
-            result.housesize = rooms.Select(rm=>rm.area.Area()).Sum();
+            result.landsize = (right * bottom)/100;
+            result.housesize = rooms.Select(rm=>rm.area.Area()).Sum()/100;
             result.areastars = r.Next(1,6);
+            var rnum = r.Next(500, 1500)/500-1;
+            result.houseType = (HouseType)rnum;
+            result.averageStars = (int)rooms.Select(rm => rm.stars).Average();
             return result;
         }
     }
@@ -208,6 +214,7 @@ namespace InvestingIncubator
         {
             this.auctionStart = auctionStart;
             this.buynow = buynow;
+            auctionCurrent = auctionStart;
         }
         public float auctionStart;
         public float auctionCurrent;
@@ -350,9 +357,11 @@ namespace InvestingIncubator
         public RoomType roomType;
         public List<RoomObject> roomObjects = new List<RoomObject>();
 
+        public int stars;
         public Room(int stars, RoomType roomType)
         {
             this.roomType = roomType;
+            this.stars = stars;
             PopulateRoom(stars-1, stars+2);
         }
         public void MoveTo(Rectangle dest, Corner a, Orientation b)
